@@ -12,4 +12,4 @@ def modbus_crc(data):
 # Example usage
 data = [0x01, 0x06, 0x01, 0x2c, 0x03, 0xe8]  # Sample Modbus data
 crc_result = modbus_crc(data)
-print(f"CRC: {crc_result:04X}")
+print(f"CRC: {crc_result:04X}") # format in 4 hex digits
