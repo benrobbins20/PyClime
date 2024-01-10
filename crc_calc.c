@@ -41,20 +41,33 @@ unsigned int calc_crc(unsigned char *start_of_packet, unsigned char *end_of_pack
     return (crc);
 }
 
-int main() {
+unsigned int create_packet(int *array, int array_size) {
+    unsigned int packet[array_size];
+    for(int i = 0; i < array_size; i++) {
+        packet[i] = array[i];
+    }
+    return packet;
+}
+
+int main(int argc, char *argv[]) {
     // Sample packet data
-    unsigned char packet[] = {0x01, 0x06, 0x01, 0x2c, 0x03, 0xe8};
-    unsigned int packet_size = sizeof(packet) / sizeof(packet[0]);
+    // unsigned char packet[] = {0x01, 0x06, 0x01, 0x2c, 0x03, 0xe8}; // hard code the packet data
+    // unsigned int packet_size = sizeof(packet) / sizeof(packet[0]); // sizeof(packet) / sizeof(packet[0]) = 6 bytes
+
+ 
+    unsigned char packet[] = {argv[1], argv[2], argv[3], argv[4], argv[5], argv[6]}; // take all args and put them in an array
+    
+    printf(create_packet([argv[1], argv[2], argv[3], argv[4], argv[5], argv[6]], int 6));
 
     // Calculate CRC
-    unsigned int crc = calc_crc(packet, packet + packet_size - 1);
+    // unsigned int crc = calc_crc(packet, packet + packet_size - 1);
 
     //funsies learning section, I want to know where the memory location of the char pointer is 
     
 
 
     // Print the result
-    printf("CRC for the packet is: 0x%X\n", crc);
+    // printf("CRC for the packet is: 0x%X\n", crc);
 
     return 0;
 }
