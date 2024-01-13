@@ -1,0 +1,10 @@
+2024-01-12 18:11:47,860 - DEBUG - com_helper: output: 
+Caption                                  DeviceID                                 Manufacturer SystemName   
+-------                                  --------                                 ------------ ----------   
+RS-232 Port (COM13)                      FTDIBUS\VID_0856+PID_AC27+BBVRFSS3A\0000 Advantech    PC-5CG1202SBG
+Prolific USB-to-Serial Comm Port (COM12) USB\VID_067B&PID_2303\7&3945FC16&0&3     Prolific     PC-5CG1202SBG
+RS-232 Port (COM11)                      FTDIBUS\VID_0856+PID_AC27+BBQOJ6MMA\0000 Advantech    PC-5CG1202SBG
+RS-232 Port (COM9)                       FTDIBUS\VID_0856+PID_AC27+BBWHYKEAA\0000 Advantech    PC-5CG1202SBG
+
+
+

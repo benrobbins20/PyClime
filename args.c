@@ -3,10 +3,12 @@
 
 void create_packet(unsigned char *packet, char *argv[], int count) { // since we are passing the address of the packet, we can modify the packet in memory and not have to return it
     for (int i = 0; i < count; i++) {
-        unsigned long val = strtoul(argv[i + 1], NULL, 16); // Convert from hex string to number
-        if (val > 255) {
+        unsigned long val = strtoul(argv[i + 1], NULL, 16); // address of first arg, the end pointer, and the base (hex)
+        // strtoul() converts the string to an unsigned long int, the endptr (NULL) is optional and used to look for null terminator or for other processing
+        if (val > 255) // unsigned char is 8 bits, so max value is 255
+        {
             printf("Argument %d is out of range for an unsigned char.\n", i + 1);
-            exit(EXIT_FAILURE);
+            exit(EXIT_FAILURE); // you can use exit() subroutine to exit program from functions other than main()
         }
         packet[i] = (unsigned char)val;
     }
@@ -29,7 +31,6 @@ int main(int argc, char *argv[]) {
     printf("packet contents: ");
     for (int i = 0; i < 6; i++) {printf("0x%02x ", packet[i]);} // one-liner loop
     printf("\n");
-
 
     return 0;
 }
