@@ -8,3 +8,262 @@ RS-232 Port (COM9)                       FTDIBUS\VID_0856+PID_AC27+BBWHYKEAA\000
 
 
 
+2024-01-20 15:48:44,374 - DEBUG - com_helper: output: 
+Caption                                  DeviceID                                 Manufacturer SystemName   
+-------                                  --------                                 ------------ ----------   
+Prolific USB-to-Serial Comm Port (COM14) USB\VID_067B&PID_2303\7&3945FC16&0&1     Prolific     PC-5CG1202SBG
+Prolific USB-to-Serial Comm Port (COM10) USB\VID_067B&PID_2303\7&3945FC16&0&2     Prolific     PC-5CG1202SBG
+RS-232 Port (COM11)                      FTDIBUS\VID_0856+PID_AC27+BBQOJ6MMA\0000 Advantech    PC-5CG1202SBG
+RS-232 Port (COM9)                       FTDIBUS\VID_0856+PID_AC27+BBWHYKEAA\0000 Advantech    PC-5CG1202SBG
+
+
+
+2024-01-20 15:49:43,728 - DEBUG - com_helper: output: 
+Caption                                  DeviceID                             Manufacturer SystemName   
+-------                                  --------                             ------------ ----------   
+Prolific USB-to-Serial Comm Port (COM10) USB\VID_067B&PID_2303\7&3945FC16&0&2 Prolific     PC-5CG1202SBG
+
+
+
+2024-01-20 17:21:21,075 - DEBUG - com_helper: output: 
+Caption                                  DeviceID                                 Manufacturer SystemName   
+-------                                  --------                                 ------------ ----------   
+Prolific USB-to-Serial Comm Port (COM12) USB\VID_067B&PID_2303\7&3945FC16&0&3     Prolific     PC-5CG1202SBG
+RS-232 Port (COM9)                       FTDIBUS\VID_0856+PID_AC27+BBWHYKEAA\0000 Advantech    PC-5CG1202SBG
+
+
+
+2024-01-20 17:24:59,735 - ERROR - test_com: failed to connect to: COM12
+2024-01-20 17:24:59,745 - ERROR - test_com: failed to connect to: COM9
+2024-01-20 17:27:06,988 - ERROR - test_com: failed to connect to: COM12
+2024-01-20 17:27:06,988 - ERROR - test_com: failed to connect to: COM9
+2024-01-20 17:29:00,967 - ERROR - test_com: failed to connect to: COM12
+2024-01-20 17:29:00,967 - ERROR - test_com: failed to connect to: COM9
+2024-01-20 17:33:59,264 - ERROR - test_com: failed to connect to: COM9
+2024-01-20 17:35:37,279 - ERROR - failed to connect to COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 17:36:17,898 - ERROR - failed to connect to COM15, error: No communication with the instrument (no answer)
+2024-01-20 17:36:18,137 - ERROR - failed to connect to COM11, error: No communication with the instrument (no answer)
+2024-01-20 17:36:18,137 - ERROR - failed to connect to COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 17:38:09,731 - INFO - test_com: env_com: COM12
+2024-01-20 17:38:10,024 - ERROR - failed to connect to COM15, error: No communication with the instrument (no answer)
+2024-01-20 17:38:10,255 - ERROR - failed to connect to COM11, error: No communication with the instrument (no answer)
+2024-01-20 17:38:10,255 - ERROR - failed to connect to COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 17:40:37,983 - INFO - test_com: env_com: COM12
+2024-01-20 17:40:38,271 - ERROR - failed to connect to COM15, error: No communication with the instrument (no answer)
+2024-01-20 17:40:38,485 - ERROR - failed to connect to COM11, error: No communication with the instrument (no answer)
+2024-01-20 17:40:38,486 - ERROR - failed to connect to COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 17:41:26,778 - INFO - test_com: env_com: COM12
+2024-01-20 17:41:27,069 - ERROR - failed to connect to COM15, error: No communication with the instrument (no answer)
+2024-01-20 17:41:27,288 - ERROR - failed to connect to COM11, error: No communication with the instrument (no answer)
+2024-01-20 17:41:27,290 - ERROR - failed to connect to COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 17:43:29,608 - INFO - test_and_update_com(): env_com: COM12
+2024-01-20 17:43:29,907 - ERROR - failed to connect to COM15, error: No communication with the instrument (no answer)
+2024-01-20 17:43:30,129 - ERROR - failed to connect to COM11, error: No communication with the instrument (no answer)
+2024-01-20 17:43:30,130 - ERROR - failed to connect to COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 17:43:41,290 - ERROR - failed to connect to COM15, error: No communication with the instrument (no answer)
+2024-01-20 17:43:41,503 - ERROR - failed to connect to COM11, error: No communication with the instrument (no answer)
+2024-01-20 17:43:41,504 - ERROR - failed to connect to COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 17:44:49,922 - ERROR - failed to connect to COM15, error: No communication with the instrument (no answer)
+2024-01-20 17:44:50,140 - ERROR - failed to connect to COM11, error: No communication with the instrument (no answer)
+2024-01-20 17:44:50,140 - ERROR - failed to connect to COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 17:46:53,620 - ERROR - failed to connect to COM15, error: No communication with the instrument (no answer)
+2024-01-20 17:46:53,844 - ERROR - failed to connect to COM11, error: No communication with the instrument (no answer)
+2024-01-20 17:46:53,844 - ERROR - failed to connect to COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 17:47:15,054 - ERROR - failed to connect to COM15, error: No communication with the instrument (no answer)
+2024-01-20 17:47:15,283 - ERROR - failed to connect to COM11, error: No communication with the instrument (no answer)
+2024-01-20 17:47:15,285 - ERROR - failed to connect to COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 17:47:50,396 - ERROR - failed to connect to COM15, error: No communication with the instrument (no answer)
+2024-01-20 17:47:50,636 - ERROR - failed to connect to COM11, error: No communication with the instrument (no answer)
+2024-01-20 17:47:50,636 - ERROR - failed to connect to COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 17:48:05,160 - INFO - test_and_update_com(): env_com: COM12
+2024-01-20 17:48:05,453 - ERROR - failed to connect to COM15, error: No communication with the instrument (no answer)
+2024-01-20 17:48:05,684 - ERROR - failed to connect to COM11, error: No communication with the instrument (no answer)
+2024-01-20 17:48:05,687 - ERROR - failed to connect to COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 17:48:33,336 - INFO - test_and_update_com(): env_com: COM12
+2024-01-20 17:48:33,632 - ERROR - failed to connect to COM15, error: No communication with the instrument (no answer)
+2024-01-20 17:48:33,848 - ERROR - failed to connect to COM11, error: No communication with the instrument (no answer)
+2024-01-20 17:48:33,848 - ERROR - failed to connect to COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 17:49:52,919 - INFO - test_and_update_com(): env_com: COM12
+2024-01-20 17:49:52,980 - INFO - set_chamber_temp: desired_temp: 25
+2024-01-20 17:50:09,123 - INFO - test_and_update_com(): env_com: COM12
+2024-01-20 17:50:09,188 - INFO - set_chamber_temp: desired_temp: 250
+2024-01-20 17:51:27,668 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x184bd107880, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x184bd107ac0, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 17:51:27,700 - INFO - test_and_update_com(): env_com: COM12
+2024-01-20 17:51:27,756 - INFO - set_chamber_temp: desired_temp: 250
+2024-01-20 18:06:18,608 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x234da4b78e0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x234da4b7b20, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:06:18,632 - INFO - test_and_update_com(): env_com: COM12
+2024-01-20 18:06:18,712 - INFO - test_and_update_com(): testing com: COM15 with instrument: minimalmodbus.Instrument<id=0x234da4b73d0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x234da4b7e50, open=True>(port='COM15', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:06:18,920 - ERROR - failed to connect to COM15, error: No communication with the instrument (no answer)
+2024-01-20 18:06:18,932 - INFO - test_and_update_com(): testing com: COM11 with instrument: minimalmodbus.Instrument<id=0x234da4b7dc0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x234da4b7df0, open=True>(port='COM11', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:06:19,141 - ERROR - failed to connect to COM11, error: No communication with the instrument (no answer)
+2024-01-20 18:06:19,143 - ERROR - failed to connect to COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:11:24,044 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x20eb44b7af0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x20eb44b7d30, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:11:24,071 - INFO - test_and_update_com(): env_com: COM12
+2024-01-20 18:11:24,155 - INFO - test_and_update_com(): testing com: COM15 with instrument: minimalmodbus.Instrument<id=0x20eb44b7490, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x20eb44b7c10, open=True>(port='COM15', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:11:24,368 - ERROR - failed to connect to COM15, error: No communication with the instrument (no answer)
+2024-01-20 18:11:24,384 - INFO - test_and_update_com(): testing com: COM11 with instrument: minimalmodbus.Instrument<id=0x20eb44b7400, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x20eb44b7ac0, open=True>(port='COM11', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:11:24,602 - ERROR - failed to connect to COM11, error: No communication with the instrument (no answer)
+2024-01-20 18:11:24,602 - ERROR - failed to connect to COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:12:39,805 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x2b297a478e0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x2b297a47b20, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:12:39,833 - INFO - test_and_update_com(): env_com: COM12
+2024-01-20 18:12:39,921 - INFO - test_and_update_com(): testing com: COM15 with instrument: minimalmodbus.Instrument<id=0x2b297a473d0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x2b297a47e50, open=True>(port='COM15', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:13:36,940 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x1ff310d7b20, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1ff310d7d60, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:13:36,960 - INFO - test_and_update_com(): env_com: COM12
+2024-01-20 18:13:37,047 - INFO - test_and_update_com(): testing com: COM15 with instrument: minimalmodbus.Instrument<id=0x1ff310d7be0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1ff310d7d00, open=True>(port='COM15', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:13:37,250 - ERROR - failed to connect to COM15, error: No communication with the instrument (no answer)
+2024-01-20 18:13:37,269 - INFO - test_and_update_com(): testing com: COM11 with instrument: minimalmodbus.Instrument<id=0x1ff310d7460, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1ff310d7fa0, open=True>(port='COM11', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:13:37,482 - ERROR - failed to connect to COM11, error: No communication with the instrument (no answer)
+2024-01-20 18:13:37,483 - ERROR - failed to connect to COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:16:44,553 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x1e758517b20, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1e758517d60, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:16:44,578 - INFO - test_and_update_com(): env_com: COM12
+2024-01-20 18:16:44,656 - INFO - test_and_update_com(): testing com: COM15 with instrument: minimalmodbus.Instrument<id=0x1e758517be0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1e758517d00, open=True>(port='COM15', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:16:44,866 - ERROR - failed to connect to COM15, error: No communication with the instrument (no answer)
+2024-01-20 18:16:44,870 - INFO - test_and_update_com(): testing com: COM11 with instrument: minimalmodbus.Instrument<id=0x1e758517460, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1e758517fa0, open=True>(port='COM11', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:16:45,080 - ERROR - failed to connect to COM11, error: No communication with the instrument (no answer)
+2024-01-20 18:16:45,082 - ERROR - failed to connect to COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:22:45,797 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x1835bb67b80, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1835bb67b50, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:22:45,822 - INFO - test_and_update_com(): env_com: COM12
+2024-01-20 18:22:45,909 - INFO - test_and_update_com(): testing com: COM15 with instrument: minimalmodbus.Instrument<id=0x1835bb679a0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1835bb67490, open=True>(port='COM15', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:22:46,112 - ERROR - failed to connect to COM15, error: No communication with the instrument (no answer)
+2024-01-20 18:22:46,132 - INFO - test_and_update_com(): testing com: COM11 with instrument: minimalmodbus.Instrument<id=0x1835bb67580, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1835bb67ca0, open=True>(port='COM11', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:22:46,350 - ERROR - failed to connect to COM11, error: No communication with the instrument (no answer)
+2024-01-20 18:22:46,350 - ERROR - failed to connect to COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:23:38,740 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x156682a7be0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x156682a7bb0, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:23:38,767 - INFO - test_and_update_com(): env_com: COM12
+2024-01-20 18:23:38,854 - INFO - test_and_update_com(): testing com: COM15 with instrument: minimalmodbus.Instrument<id=0x156682a7af0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x156682a7520, open=True>(port='COM15', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:23:39,065 - ERROR - failed to connect to COM15, error: No communication with the instrument (no answer)
+2024-01-20 18:23:39,080 - INFO - test_and_update_com(): testing com: COM11 with instrument: minimalmodbus.Instrument<id=0x156682a7d30, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x156682a7dc0, open=True>(port='COM11', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:23:39,295 - ERROR - failed to connect to COM11, error: No communication with the instrument (no answer)
+2024-01-20 18:23:39,295 - ERROR - failed to connect to COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:24:22,751 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x265c8ff7bb0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x265c8ff7b80, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:24:22,780 - INFO - test_and_update_com(): env_com: COM12
+2024-01-20 18:24:22,868 - INFO - test_and_update_com(): testing com: COM15 with instrument: minimalmodbus.Instrument<id=0x265c8ff79d0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x265c8ff74c0, open=True>(port='COM15', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:24:23,072 - ERROR - failed to connect to COM15, error: No communication with the instrument (no answer)
+2024-01-20 18:24:23,090 - INFO - test_and_update_com(): testing com: COM11 with instrument: minimalmodbus.Instrument<id=0x265c8ff75b0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x265c8ff7cd0, open=True>(port='COM11', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:24:23,294 - ERROR - failed to connect to COM11, error: No communication with the instrument (no answer)
+2024-01-20 18:24:23,294 - ERROR - failed to connect to COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:24:46,815 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x22072d57c10, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x22072d57be0, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:24:46,841 - INFO - test_and_update_com(): env_com: COM12
+2024-01-20 18:24:46,931 - INFO - test_and_update_com(): testing com: COM15 with instrument: minimalmodbus.Instrument<id=0x22072d57b20, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x22072d57550, open=True>(port='COM15', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:24:47,138 - ERROR - failed to connect to COM15, error: No communication with the instrument (no answer)
+2024-01-20 18:24:47,154 - INFO - test_and_update_com(): testing com: COM11 with instrument: minimalmodbus.Instrument<id=0x22072d57d60, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x22072d57df0, open=True>(port='COM11', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:24:47,364 - ERROR - failed to connect to COM11, error: No communication with the instrument (no answer)
+2024-01-20 18:24:47,365 - ERROR - failed to connect to COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:27:27,700 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x26a8a617d00, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x26a8a617cd0, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:27:27,724 - INFO - test_and_update_com(): env_com: COM12
+2024-01-20 18:27:27,814 - INFO - test_and_update_com(): testing com: COM15 with instrument: minimalmodbus.Instrument<id=0x26a8a617c10, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x26a8a617640, open=True>(port='COM15', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:27:28,030 - ERROR - failed to connect to COM15, error: No communication with the instrument (no answer)
+2024-01-20 18:27:28,054 - INFO - test_and_update_com(): testing com: COM11 with instrument: minimalmodbus.Instrument<id=0x26a8a617e50, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x26a8a617ee0, open=True>(port='COM11', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:27:28,259 - ERROR - failed to connect to COM11, error: No communication with the instrument (no answer)
+2024-01-20 18:27:28,261 - ERROR - failed to connect to COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:36:42,698 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x15cdf5277f0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x15cdf5278e0, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:36:42,728 - ERROR - could not establish Thermal Chamber COM12, error: name 'modbus_device' is not defined
+2024-01-20 18:36:42,728 - ERROR - could not identify power supply COM12, error: could not open port 'COM12': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:36:42,815 - INFO - test_and_update_com(): testing com: COM15 with instrument: minimalmodbus.Instrument<id=0x15cdf527ee0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x15cdf527a30, open=True>(port='COM15', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:36:43,032 - ERROR - could not establish Thermal Chamber COM15, error: No communication with the instrument (no answer)
+2024-01-20 18:36:43,032 - ERROR - could not identify power supply COM15, error: could not open port 'COM15': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:36:43,051 - INFO - test_and_update_com(): testing com: COM11 with instrument: minimalmodbus.Instrument<id=0x15cdf527820, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x15cdf527880, open=True>(port='COM11', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:36:43,260 - ERROR - could not establish Thermal Chamber COM11, error: No communication with the instrument (no answer)
+2024-01-20 18:36:43,260 - ERROR - could not identify power supply COM11, error: could not open port 'COM11': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:36:43,261 - ERROR - could not establish Thermal Chamber COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:36:43,261 - ERROR - could not identify power supply COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:37:14,811 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x269cd0f7850, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x269cd0f7a30, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:37:14,841 - ERROR - could not establish Thermal Chamber COM12, error: name 'modbus_device' is not defined
+2024-01-20 18:37:14,841 - ERROR - could not identify power supply COM12, error: could not open port 'COM12': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:37:14,926 - INFO - test_and_update_com(): testing com: COM15 with instrument: minimalmodbus.Instrument<id=0x269cd0f7f10, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x269cd0f7e50, open=True>(port='COM15', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:37:15,141 - ERROR - could not establish Thermal Chamber COM15, error: No communication with the instrument (no answer)
+2024-01-20 18:37:15,141 - ERROR - could not identify power supply COM15, error: could not open port 'COM15': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:37:15,151 - INFO - test_and_update_com(): testing com: COM11 with instrument: minimalmodbus.Instrument<id=0x269cd0f7940, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x269cd0f7880, open=True>(port='COM11', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:37:15,366 - ERROR - could not establish Thermal Chamber COM11, error: No communication with the instrument (no answer)
+2024-01-20 18:37:15,366 - ERROR - could not identify power supply COM11, error: could not open port 'COM11': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:37:15,369 - ERROR - could not establish Thermal Chamber COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:37:15,369 - ERROR - could not identify power supply COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:37:38,505 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x2cec82f7850, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x2cec82f7a30, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:37:38,526 - ERROR - could not establish Thermal Chamber COM12, error: name 'modbus_device' is not defined
+2024-01-20 18:37:38,526 - ERROR - could not identify power supply COM12, error: could not open port 'COM12': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:37:38,617 - INFO - test_and_update_com(): testing com: COM15 with instrument: minimalmodbus.Instrument<id=0x2cec82f7f10, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x2cec82f7e50, open=True>(port='COM15', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:37:38,833 - ERROR - could not establish Thermal Chamber COM15, error: No communication with the instrument (no answer)
+2024-01-20 18:37:38,833 - ERROR - could not identify power supply COM15, error: could not open port 'COM15': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:37:38,845 - INFO - test_and_update_com(): testing com: COM11 with instrument: minimalmodbus.Instrument<id=0x2cec82f7940, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x2cec82f7880, open=True>(port='COM11', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:37:39,049 - ERROR - could not establish Thermal Chamber COM11, error: No communication with the instrument (no answer)
+2024-01-20 18:37:39,049 - ERROR - could not identify power supply COM11, error: could not open port 'COM11': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:37:39,049 - ERROR - could not establish Thermal Chamber COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:37:39,049 - ERROR - could not identify power supply COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:38:04,176 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x204de857850, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x204de857a30, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:38:04,198 - INFO - test_and_update_com(): env_com: COM12
+2024-01-20 18:38:04,285 - INFO - test_and_update_com(): testing com: COM15 with instrument: minimalmodbus.Instrument<id=0x204de857f10, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x204de857e50, open=True>(port='COM15', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:38:04,503 - ERROR - could not establish Thermal Chamber COM15, error: No communication with the instrument (no answer)
+2024-01-20 18:38:04,503 - ERROR - could not identify power supply COM15, error: could not open port 'COM15': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:38:04,527 - INFO - test_and_update_com(): testing com: COM11 with instrument: minimalmodbus.Instrument<id=0x204de857880, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x204de857940, open=True>(port='COM11', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:38:04,734 - ERROR - could not establish Thermal Chamber COM11, error: No communication with the instrument (no answer)
+2024-01-20 18:38:04,734 - ERROR - could not identify power supply COM11, error: could not open port 'COM11': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:38:04,734 - ERROR - could not establish Thermal Chamber COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:38:04,734 - ERROR - could not identify power supply COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:39:20,670 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x1a999283880, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1a999283a60, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:39:20,694 - INFO - test_and_update_com(): env_com: COM12
+2024-01-20 18:39:20,783 - INFO - test_and_update_com(): testing com: COM15 with instrument: minimalmodbus.Instrument<id=0x1a999283f40, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1a999283e80, open=True>(port='COM15', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:39:20,989 - ERROR - could not establish Thermal Chamber COM15, error: No communication with the instrument (no answer)
+2024-01-20 18:39:20,989 - ERROR - could not identify power supply COM15, error: could not open port 'COM15': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:39:21,009 - INFO - test_and_update_com(): testing com: COM11 with instrument: minimalmodbus.Instrument<id=0x1a9992838b0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1a999283970, open=True>(port='COM11', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:39:21,214 - ERROR - could not establish Thermal Chamber COM11, error: No communication with the instrument (no answer)
+2024-01-20 18:39:21,215 - ERROR - could not identify power supply COM11, error: could not open port 'COM11': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:39:21,215 - ERROR - could not establish Thermal Chamber COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:39:21,215 - ERROR - could not identify power supply COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:42:59,252 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x217c9c73940, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x217c9c73b20, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:42:59,277 - INFO - test_and_update_com(): env_com: COM12
+2024-01-20 18:42:59,369 - INFO - test_and_update_com(): testing com: COM15 with instrument: minimalmodbus.Instrument<id=0x217c9c73a30, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x217c9c73e50, open=True>(port='COM15', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:42:59,585 - ERROR - could not establish Thermal Chamber COM15, error: No communication with the instrument (no answer)
+2024-01-20 18:42:59,609 - ERROR - could not identify power supply COM15, error: could not open port 'COM15': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:42:59,628 - INFO - test_and_update_com(): testing com: COM11 with instrument: minimalmodbus.Instrument<id=0x217c9c73f70, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x217c9c73940, open=True>(port='COM11', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:42:59,843 - ERROR - could not establish Thermal Chamber COM11, error: No communication with the instrument (no answer)
+2024-01-20 18:42:59,845 - ERROR - could not identify power supply COM11, error: could not open port 'COM11': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:42:59,845 - ERROR - could not establish Thermal Chamber COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:42:59,845 - ERROR - could not identify power supply COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:43:18,511 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x2a7c24d3970, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x2a7c24d3b50, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:43:18,538 - INFO - test_and_update_com(): env_com: COM12
+2024-01-20 18:43:18,625 - INFO - test_and_update_com(): testing com: COM15 with instrument: minimalmodbus.Instrument<id=0x2a7c24d3a60, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x2a7c24d3e80, open=True>(port='COM15', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:43:18,830 - ERROR - could not establish Thermal Chamber COM15, error: No communication with the instrument (no answer)
+2024-01-20 18:43:18,835 - ERROR - could not identify power supply COM15, error: could not open port 'COM15': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:43:18,847 - INFO - test_and_update_com(): testing com: COM11 with instrument: minimalmodbus.Instrument<id=0x2a7c24d3fa0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x2a7c24d3970, open=True>(port='COM11', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:43:19,050 - ERROR - could not establish Thermal Chamber COM11, error: No communication with the instrument (no answer)
+2024-01-20 18:43:19,054 - ERROR - could not identify power supply COM11, error: could not open port 'COM11': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:43:19,054 - ERROR - could not establish Thermal Chamber COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:43:19,057 - ERROR - could not identify power supply COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:45:14,073 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x208262039d0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x20826203c10, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:45:14,096 - INFO - test_and_update_com(): env_com: COM12
+2024-01-20 18:45:14,183 - INFO - test_and_update_com(): testing com: COM15 with instrument: minimalmodbus.Instrument<id=0x20826203a00, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x20826203a60, open=True>(port='COM15', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:45:14,400 - ERROR - could not establish Thermal Chamber COM15, error: No communication with the instrument (no answer)
+2024-01-20 18:45:14,408 - ERROR - could not identify power supply COM15, error: could not open port 'COM15': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:45:14,418 - INFO - test_and_update_com(): testing com: COM11 with instrument: minimalmodbus.Instrument<id=0x208262039d0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x20826203bb0, open=True>(port='COM11', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:45:14,618 - ERROR - could not establish Thermal Chamber COM11, error: No communication with the instrument (no answer)
+2024-01-20 18:45:14,619 - ERROR - could not identify power supply COM11, error: could not open port 'COM11': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:45:14,619 - ERROR - could not establish Thermal Chamber COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:45:14,619 - ERROR - could not identify power supply COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:51:12,734 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x12dcfa73a00, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x12dcfa73c40, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:51:12,759 - INFO - test_and_update_com(): env_com: COM12
+2024-01-20 18:51:12,791 - INFO - test_and_update_com(): testing com: COM11 with instrument: minimalmodbus.Instrument<id=0x12dcfa73af0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x12dcfa73be0, open=True>(port='COM11', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:51:12,995 - ERROR - could not establish Thermal Chamber COM11, error: No communication with the instrument (no answer)
+2024-01-20 18:51:13,000 - ERROR - could not identify power supply COM11, error: could not open port 'COM11': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:51:13,000 - ERROR - could not establish Thermal Chamber COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:51:13,005 - ERROR - could not identify power supply COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:56:34,138 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x27f7cb47ac0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x27f7cb47d00, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:56:34,166 - INFO - test_and_update_com(): env_com: COM12
+2024-01-20 18:56:34,195 - INFO - test_and_update_com(): testing com: COM11 with instrument: minimalmodbus.Instrument<id=0x27f7cb47c70, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x27f7cb47fa0, open=True>(port='COM11', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:56:34,412 - ERROR - could not establish Thermal Chamber COM11, error: No communication with the instrument (no answer)
+2024-01-20 18:56:34,413 - ERROR - could not establish Thermal Chamber COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:59:52,573 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x20e89287a00, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x20e89287c40, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:59:52,600 - INFO - test_and_update_com(): env_com: COM12
+2024-01-20 18:59:52,622 - INFO - test_and_update_com(): testing com: COM11 with instrument: minimalmodbus.Instrument<id=0x20e89287af0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x20e89287be0, open=True>(port='COM11', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 18:59:52,828 - ERROR - could not establish Thermal Chamber COM11, error: No communication with the instrument (no answer)
+2024-01-20 18:59:52,829 - ERROR - could not establish Thermal Chamber COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:59:55,511 - ERROR - could not establish HV PS COM12, error: could not open port 'COM12': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:59:55,511 - ERROR - could not establish HV PS COM11, error: could not open port 'COM11': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 18:59:55,511 - ERROR - could not establish HV PS COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 19:00:55,993 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x2ca3e393a90, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x2ca3e393cd0, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 19:00:56,015 - INFO - test_and_update_com(): env_com: COM12
+2024-01-20 19:00:56,033 - INFO - test_and_update_com(): testing com: COM11 with instrument: minimalmodbus.Instrument<id=0x2ca3e393b80, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x2ca3e393c70, open=True>(port='COM11', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 19:00:56,251 - ERROR - could not establish Thermal Chamber COM11, error: No communication with the instrument (no answer)
+2024-01-20 19:00:56,251 - ERROR - could not establish Thermal Chamber COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 19:00:59,234 - ERROR - could not establish HV PS COM12, error: could not open port 'COM12': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 19:00:59,236 - ERROR - could not establish HV PS COM11, error: could not open port 'COM11': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 19:00:59,241 - ERROR - could not establish HV PS COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
