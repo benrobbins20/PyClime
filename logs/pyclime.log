@@ -267,3 +267,126 @@ RS-232 Port (COM9)                       FTDIBUS\VID_0856+PID_AC27+BBWHYKEAA\000
 2024-01-20 19:00:59,234 - ERROR - could not establish HV PS COM12, error: could not open port 'COM12': PermissionError(13, 'Access is denied.', None, 5)
 2024-01-20 19:00:59,236 - ERROR - could not establish HV PS COM11, error: could not open port 'COM11': PermissionError(13, 'Access is denied.', None, 5)
 2024-01-20 19:00:59,241 - ERROR - could not establish HV PS COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 19:07:36,655 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x1f9a9953a90, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1f9a9953cd0, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 19:07:36,873 - ERROR - could not establish Thermal Chamber COM12, error: No communication with the instrument (no answer)
+2024-01-20 19:07:36,924 - INFO - test_and_update_com(): testing com: COM11 with instrument: minimalmodbus.Instrument<id=0x1f9a9953b80, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1f9a9953c70, open=True>(port='COM11', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 19:07:37,134 - ERROR - could not establish Thermal Chamber COM11, error: No communication with the instrument (no answer)
+2024-01-20 19:07:37,166 - INFO - test_and_update_com(): testing com: COM9 with instrument: minimalmodbus.Instrument<id=0x1f9a9953a90, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1f9a99ac0d0, open=True>(port='COM9', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 19:07:37,374 - ERROR - could not establish Thermal Chamber COM9, error: No communication with the instrument (no answer)
+2024-01-20 19:08:45,676 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x29044c67a00, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x29044c67c40, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 19:08:45,885 - ERROR - could not establish Thermal Chamber COM12, error: No communication with the instrument (no answer)
+2024-01-20 19:08:45,938 - INFO - test_and_update_com(): testing com: COM11 with instrument: minimalmodbus.Instrument<id=0x29044c67af0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x29044c67be0, open=True>(port='COM11', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 19:08:46,146 - ERROR - could not establish Thermal Chamber COM11, error: No communication with the instrument (no answer)
+2024-01-20 19:08:46,195 - INFO - test_and_update_com(): testing com: COM9 with instrument: minimalmodbus.Instrument<id=0x29044c67a00, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x29044cbc040, open=True>(port='COM9', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 19:08:46,402 - ERROR - could not establish Thermal Chamber COM9, error: No communication with the instrument (no answer)
+2024-01-20 19:08:49,140 - ERROR - could not establish HV PS COM12, error: could not open port 'COM12': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 19:08:49,145 - ERROR - could not establish HV PS COM11, error: could not open port 'COM11': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 19:08:49,150 - ERROR - could not establish HV PS COM9, error: could not open port 'COM9': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-20 19:09:33,631 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x1d732cb3a90, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1d732cb3cd0, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 19:09:33,831 - ERROR - could not establish Thermal Chamber COM12, error: No communication with the instrument (no answer)
+2024-01-20 19:09:33,879 - INFO - test_and_update_com(): testing com: COM11 with instrument: minimalmodbus.Instrument<id=0x1d732cb3b80, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1d732cb3c70, open=True>(port='COM11', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 19:09:34,085 - ERROR - could not establish Thermal Chamber COM11, error: No communication with the instrument (no answer)
+2024-01-20 19:09:34,127 - INFO - test_and_update_com(): testing com: COM9 with instrument: minimalmodbus.Instrument<id=0x1d732cb3a90, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1d732d0c0d0, open=True>(port='COM9', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-20 19:09:34,341 - ERROR - could not establish Thermal Chamber COM9, error: No communication with the instrument (no answer)
+2024-01-24 17:08:29,528 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x2268c0f3b20, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x2268c0f3d60, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-24 17:08:29,560 - INFO - test_and_update_com(): env_com: COM12
+2024-01-24 17:08:40,199 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x268f72a3b80, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x268f72a3dc0, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-24 17:08:40,222 - INFO - test_and_update_com(): env_com: COM12
+2024-01-24 17:08:41,438 - ERROR - could not establish PS COM12, error: could not open port 'COM12': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-24 17:16:49,752 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x18945543b50, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x18945543d90, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-24 17:16:49,775 - INFO - test_and_update_com(): env_com: COM12
+2024-01-24 17:16:50,996 - ERROR - could not establish PS COM12, error: Traceback (most recent call last):
+  File "c:\Users\u386848\OneDrive - Danfoss\PyClime\pyclime.py", line 88, in set_ps_com
+    conn = serial.Serial(com, 19200, timeout=1)
+  File "C:\Users\u386848\AppData\Local\Programs\Python\Python310\lib\site-packages\serial\serialwin32.py", line 33, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Users\u386848\AppData\Local\Programs\Python\Python310\lib\site-packages\serial\serialutil.py", line 244, in __init__
+    self.open()
+  File "C:\Users\u386848\AppData\Local\Programs\Python\Python310\lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM12': PermissionError(13, 'Access is denied.', None, 5)
+
+2024-01-24 17:17:24,578 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x24f64583af0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x24f64583d30, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-24 17:17:24,610 - INFO - test_and_update_com(): env_com: COM12
+2024-01-24 17:17:25,802 - ERROR - could not establish PS COM12, error: could not open port 'COM12': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-24 17:18:44,139 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x2bb31e43a90, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x2bb31e43cd0, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-24 17:18:44,164 - INFO - test_and_update_com(): env_com: COM12, test success model num: 5270
+2024-01-24 17:18:45,335 - ERROR - could not establish PS COM12, error: could not open port 'COM12': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-24 17:19:48,147 - INFO - test_and_update_com(): testing com: COM12 with instrument: None
+2024-01-24 17:19:48,174 - INFO - test_and_update_com(): env_com: COM12, test success model num: 5270
+2024-01-24 17:19:49,415 - ERROR - could not establish PS COM12, error: could not open port 'COM12': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-24 17:37:05,590 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x19b77ba3ca0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x19b77ba3ee0, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-24 17:37:05,606 - INFO - test_and_update_com(): env_com: COM12, test success model num: 5270
+2024-01-24 17:37:28,888 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x1d5d7c33c40, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1d5d7c33e80, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-24 17:37:28,910 - INFO - test_and_update_com(): env_com: COM12, test success model num: 5270
+2024-01-24 17:37:30,086 - ERROR - could not establish PS COM12, error: could not open port 'COM12': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-24 17:37:30,171 - INFO - set_ps_com(): testing com: COM11 santized id: b'Magna-Power Electronics, Inc., SQA375-54, S/N:106-1588\r\n'
+2024-01-24 17:37:30,343 - INFO - set_ps_com(): testing com: COM9 santized id: b'Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051\r\n'
+2024-01-24 17:38:06,611 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x20ab2cf3c10, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x20ab2cf3e50, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-24 17:38:06,641 - INFO - test_and_update_com(): env_com: COM12, test success model num: 5270
+2024-01-24 17:38:07,806 - ERROR - could not establish PS COM12, error: could not open port 'COM12': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-24 17:38:07,879 - INFO - set_ps_com(): testing com: COM11 santized id: b'Magna-Power Electronics, Inc., SQA375-54, S/N:106-1588\r\n'
+2024-01-24 17:38:08,054 - INFO - set_ps_com(): testing com: COM9 santized id: b'Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051\r\n'
+2024-01-24 17:46:25,346 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x286cde33ca0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x286cde33ee0, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-24 17:46:25,376 - INFO - test_and_update_com(): env_com: COM12, test success model num: 5270
+2024-01-24 17:46:26,592 - ERROR - could not establish PS COM12, error: could not open port 'COM12': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-24 17:46:26,678 - INFO - set_ps_com(): testing com: COM11 santized id: Magna-Power Electronics, Inc., SQA375-54, S/N:106-1588
+2024-01-24 17:46:26,870 - INFO - set_ps_com(): testing com: COM9 santized id: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-01-24 17:50:59,817 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x1a258b94af0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1a258b94d30, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-24 17:50:59,849 - INFO - test_and_update_com(): env_com: COM12, test success model num: 5270
+2024-01-24 17:51:01,054 - ERROR - could not establish PS COM12, error: could not open port 'COM12': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-24 17:51:01,138 - INFO - set_ps_com(): testing com: COM11 santized id: Magna-Power Electronics, Inc., SQA375-54, S/N:106-1588
+2024-01-24 17:51:01,138 - INFO - set_ps_com(): hv_com: COM11, test success model num: Magna-Power Electronics, Inc., SQA375-54, S/N:106-1588
+2024-01-24 17:53:36,155 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x273ba5c4eb0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x273ba5c50f0, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-24 17:53:36,174 - INFO - test_and_update_com(): env_com: COM12, test success model num: 5270
+2024-01-24 17:53:37,359 - ERROR - could not establish PS COM12, error: could not open port 'COM12': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-24 17:53:37,455 - INFO - set_ps_com(): testing com: COM11 santized id: Magna-Power Electronics, Inc., SQA375-54, S/N:106-1588
+2024-01-24 17:53:37,455 - INFO - set_ps_com(): hv_com: COM11, test success model num: Magna-Power Electronics, Inc., SQA375-54, S/N:106-1588
+2024-01-24 17:53:37,652 - INFO - set_ps_com(): testing com: COM9 santized id: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-01-24 17:53:37,653 - INFO - set_ps_com(): lv_com: COM9, test success model num: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-01-24 17:53:37,653 - DEBUG - set_ps_com(): hv_com: COM11, lv_com: COM9
+2024-01-24 17:55:11,423 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x165c7f84f70, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x165c7f851b0, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-24 17:55:11,447 - INFO - test_and_update_com(): env_com: COM12, test success model num: 5270
+2024-01-24 17:55:12,606 - ERROR - could not establish PS COM12, error: could not open port 'COM12': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-24 17:55:12,686 - INFO - set_ps_com(): testing com: COM11 santized id: Magna-Power Electronics, Inc., SQA375-54, S/N:106-1588
+2024-01-24 17:55:12,686 - INFO - set_ps_com(): hv_com: COM11, test success model num: Magna-Power Electronics, Inc., SQA375-54, S/N:106-1588
+2024-01-24 17:55:12,875 - INFO - set_ps_com(): testing com: COM9 santized id: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-01-24 17:55:12,875 - INFO - set_ps_com(): lv_com: COM9, test success model num: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-01-24 17:55:12,875 - DEBUG - set_ps_com(): hv_com: COM11, lv_com: COM9
+2024-01-24 17:55:13,028 - INFO - set_chamber_temp: desired_temp: 220
+2024-01-24 18:02:25,258 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x19b64b1d480, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x19b64b1d6c0, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-24 18:02:25,286 - INFO - test_and_update_com(): env_com: COM12, test success model num: 5270
+2024-01-24 18:02:26,501 - ERROR - could not establish PS COM12, error: could not open port 'COM12': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-24 18:02:26,579 - INFO - set_ps_com(): testing com: COM11 santized id: Magna-Power Electronics, Inc., SQA375-54, S/N:106-1588
+2024-01-24 18:02:26,579 - INFO - set_ps_com(): hv_com: COM11, test success model num: Magna-Power Electronics, Inc., SQA375-54, S/N:106-1588
+2024-01-24 18:02:26,781 - INFO - set_ps_com(): testing com: COM9 santized id: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-01-24 18:02:26,781 - INFO - set_ps_com(): lv_com: COM9, test success model num: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-01-24 18:02:26,781 - DEBUG - set_ps_com(): hv_com: COM11, lv_com: COM9
+2024-01-24 18:02:26,928 - INFO - set_chamber_temp: desired_temp: 220
+2024-01-24 18:02:47,073 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x1adf854d480, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1adf854d6c0, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-24 18:02:47,097 - INFO - test_and_update_com(): env_com: COM12, test success model num: 5270
+2024-01-24 18:02:48,232 - ERROR - could not establish PS COM12, error: could not open port 'COM12': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-24 18:02:48,325 - INFO - set_ps_com(): testing com: COM11 santized id: Magna-Power Electronics, Inc., SQA375-54, S/N:106-1588
+2024-01-24 18:02:48,325 - INFO - set_ps_com(): hv_com: COM11, test success model num: Magna-Power Electronics, Inc., SQA375-54, S/N:106-1588
+2024-01-24 18:02:48,501 - INFO - set_ps_com(): testing com: COM9 santized id: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-01-24 18:02:48,501 - INFO - set_ps_com(): lv_com: COM9, test success model num: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-01-24 18:02:48,502 - DEBUG - set_ps_com(): hv_com: COM11, lv_com: COM9
+2024-01-24 18:02:48,652 - INFO - set_chamber_temp: desired_temp: 220
+2024-01-24 18:03:35,257 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x19253d3d480, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x19253d3d6c0, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-24 18:03:35,287 - INFO - test_and_update_com(): env_com: COM12, test success model num: 5270
+2024-01-24 18:03:36,435 - ERROR - could not establish PS COM12, error: could not open port 'COM12': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-24 18:03:36,522 - INFO - set_ps_com(): testing com: COM11 santized id: Magna-Power Electronics, Inc., SQA375-54, S/N:106-1588
+2024-01-24 18:03:36,522 - INFO - set_ps_com(): hv_com: COM11, test success model num: Magna-Power Electronics, Inc., SQA375-54, S/N:106-1588
+2024-01-24 18:03:36,717 - INFO - set_ps_com(): testing com: COM9 santized id: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-01-24 18:03:36,717 - INFO - set_ps_com(): lv_com: COM9, test success model num: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-01-24 18:03:36,717 - DEBUG - set_ps_com(): hv_com: COM11, lv_com: COM9
+2024-01-24 18:03:36,870 - INFO - set_chamber_temp: desired_temp: 220
+2024-01-24 18:03:51,983 - INFO - test_and_update_com(): testing com: COM12 with instrument: minimalmodbus.Instrument<id=0x2c852c4d480, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x2c852c4d6c0, open=True>(port='COM12', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-01-24 18:03:52,007 - INFO - test_and_update_com(): env_com: COM12, test success model num: 5270
+2024-01-24 18:03:53,164 - ERROR - could not establish PS COM12, error: could not open port 'COM12': PermissionError(13, 'Access is denied.', None, 5)
+2024-01-24 18:03:53,251 - INFO - set_ps_com(): testing com: COM11 santized id: Magna-Power Electronics, Inc., SQA375-54, S/N:106-1588
+2024-01-24 18:03:53,252 - INFO - set_ps_com(): hv_com: COM11, test success model num: Magna-Power Electronics, Inc., SQA375-54, S/N:106-1588
+2024-01-24 18:03:53,460 - INFO - set_ps_com(): testing com: COM9 santized id: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-01-24 18:03:53,460 - INFO - set_ps_com(): lv_com: COM9, test success model num: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-01-24 18:03:53,461 - DEBUG - set_ps_com(): hv_com: COM11, lv_com: COM9
+2024-01-24 18:03:53,598 - INFO - set_chamber_temp: desired_temp: 220

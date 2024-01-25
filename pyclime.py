@@ -59,44 +59,73 @@ class PyClime:
         return self.instrument
 
         
-    def set_env_com(self):
+    def set_env_com(self): # Function gets the list of com and serial ports and then sets up the modbus and serial instruments
         com_list = self.com_helper()
         for com in com_list:
-
             try:
-                self.instrument = self.setup_instrument(com)
+                self.instrument = self.setup_instrument(com) # sets the shared instrument object within the class 
                 self.logger.info('test_and_update_com(): testing com: %s with instrument: %s', com,self.instrument)
-                reg_val = self.read_register(0)
-                print(f"Register 0 value: {reg_val} for COM port: {com}")
+                reg_val = self.read_register(0) # register 0 holds the model number of the chamber == 5270 aka 4F (little endian f4)
+                # print(f"Register 0 value: {reg_val} for COM port: {com}")
                 if reg_val == 5270: 
                     self.env_com = com
-                    self.logger.info('test_and_update_com(): env_com: %s', self.env_com)
-                    continue
+                    self.logger.info('test_and_update_com(): env_com: %s, test success model num: %s', self.env_com,reg_val)
+                    break # can break out of loop 
+                    # TODO might be to check all of them because talking to a lot of chambers may be a project idea
                 else:
                     self.logger.info('Unexpected register result: %s', reg_val)
+                    self.instrument.serial.close() # VERY IMPORTANT, need to release the com port to use with other instruments
                     continue
             except Exception as e:
-                
+                self.instrument.serial.close() # VERY IMPORTANT, need to release the com port to use with other instruments
                 self.logger.error("could not establish Thermal Chamber %s, error: %s", com,e)
         self.setup_instrument(self.env_com)
         
-    def set_ps_com(self):
+    def set_ps_com(self): # set up ps com ports by sending scpi command to each port
+        # the small one is a XR 50-40 and the big one is a SQA375-54
+        big_ps_model = 'SQA375-54'
+        small_ps_model = 'XR 50-40'
         com_list = self.com_helper()
         for com in com_list:
             try:
-                conn = serial.Serial(com, 19200, timeout=0.2)
-                conn.write('*IDN?\n'.encode())
-                print(conn.readline())
+                conn = serial.Serial(com, 19200, timeout=1)
+                conn.write('*IDN?\n'.encode()) # return byte encoded ID b'Magna-Power Electronics, Inc., SQA375-54, S/N:106-1588\r\n'
+                id = (conn.readline())
+                id = id.decode('utf-8').strip('\r\n')
+                self.logger.info('set_ps_com(): testing com: %s santized id: %s', com,id)
+                
+                if big_ps_model in id:
+                    self.hv_com = com
+                    self.logger.info('set_ps_com(): hv_com: %s, test success model num: %s', self.hv_com,id)
+                    
+                elif small_ps_model in id:
+                    self.lv_com = com
+                    self.logger.info('set_ps_com(): lv_com: %s, test success model num: %s', self.lv_com,id)
+                       
+                else:
+                    # getting to this block means the ID returned over serial may be null
+                    self.logger.error('set_ps_com(): could not establish PS %s, error: %s', com, id)
             except Exception as e:
-                exception_traceback = traceback.format_exc()
-                print(exception_traceback)
-                self.logger.error("could not establish HV PS %s, error: %s", com,e)
+  
+                # exception_traceback = traceback.format_exc()
+                # print(exception_traceback)
+                self.logger.error("could not establish PS %s, error: %s", com, e)
+        self.logger.debug('set_ps_com(): hv_com: %s, lv_com: %s', self.hv_com, self.lv_com) # at end of loop ensure that both are assigned
+        if not self.hv_com or not self.lv_com:
+            self.logger.error('set_ps_com(): could not set com port hv_com: %s, lv_com: %s', self.hv_com, self.lv_com) # error out if either are not set
         
     def read_register(self, register):
         return self.instrument.read_register(register)
         
     def print_instr(self):
         print(self.instrument)
+        
+    def send_scpi(self, com, scpi_cmd):
+        conn = serial.Serial(com, 19200, timeout=1)
+        message = scpi_cmd + '\n'
+        conn.write(message.encode())
+        return conn.readline()
+    
 
 
 test_instance = PyClime() # create an instance of the class
@@ -104,7 +133,6 @@ test_instance = PyClime() # create an instance of the class
         
 test_instance.set_env_com() # test the com ports
 test_instance.set_ps_com() # test the com ports
+test_instance.set_chamber_temp(220) # set the chamber temp to 100C
 
-test_instance.print_instr() # print the instrument settings after running test_com
-
-#test_instance.set_chamber_temp(250) # set the chamber temp to 100C
+print(test_instance.send_scpi(test_instance.hv_com, 'OUTP:STOP')) # this worked!!! AND I DIDNT HAVE IT HOOKED UP TO ANYTHING!!!! 360 VOLTS JUST APPLIED AND IM SETTING NEXT TO LEADS. HA. well ill take it 
