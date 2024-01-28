@@ -1,4 +1,4 @@
-import csv, minimalmodbus, logging, os, subprocess, re, serial, traceback
+import csv, minimalmodbus, logging, os, subprocess, re, serial, traceback, canlib
 
 
 # main class for back end 
@@ -126,13 +126,20 @@ class PyClime:
         conn.write(message.encode())
         return conn.readline()
     
+    def lv_on(self,enable=False):
+        if enable: # if the enable flag is set, turn on the ps
+            self.send_scpi(self.lv_com, 'OUTP:START') 
+        else: # otherwise turn off the ps
+            self.send_scpi(self.lv_com, 'OUTP:STOP')
 
 
-test_instance = PyClime() # create an instance of the class
+
+
+# test_instance = PyClime() # create an instance of the class
 
         
-test_instance.set_env_com() # test the com ports
-test_instance.set_ps_com() # test the com ports
-test_instance.set_chamber_temp(220) # set the chamber temp to 100C
+# test_instance.set_env_com() # test the com ports
+# test_instance.set_ps_com() # test the com ports
+# test_instance.set_chamber_temp(220) # set the chamber temp to 100C
 
-print(test_instance.send_scpi(test_instance.hv_com, 'OUTP:STOP')) # this worked!!! AND I DIDNT HAVE IT HOOKED UP TO ANYTHING!!!! 360 VOLTS JUST APPLIED AND IM SETTING NEXT TO LEADS. HA. well ill take it 
+# test_instance.send_scpi(test_instance.lv_com, 'OUTP:START') # this worked!!! AND I DIDNT HAVE IT HOOKED UP TO ANYTHING!!!! 360 VOLTS JUST APPLIED AND IM SETTING NEXT TO LEADS. HA. well ill take it 
