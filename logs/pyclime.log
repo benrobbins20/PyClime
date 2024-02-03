@@ -446,3 +446,589 @@ serial.serialutil.SerialException: could not open port 'COM12': PermissionError(
 2024-01-27 19:36:49,913 - INFO - set_ps_com(): lv_com: COM9, test success model num: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
 2024-01-27 19:36:49,913 - DEBUG - set_ps_com(): hv_com: None, lv_com: COM9
 2024-01-27 19:36:49,913 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: COM9
+2024-02-03 14:56:56,362 - INFO - test_and_update_com(): testing com: COM6 with instrument: minimalmodbus.Instrument<id=0x1d2d4f82e90, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1d2d4f82ec0, open=True>(port='COM6', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 14:56:56,691 - ERROR - could not establish Thermal Chamber COM6, error: No communication with the instrument (no answer)
+2024-02-03 14:56:56,806 - INFO - test_and_update_com(): testing com: COM16 with instrument: minimalmodbus.Instrument<id=0x1d2d4f82d70, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1d2d4f82e60, open=True>(port='COM16', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 14:56:56,830 - INFO - test_and_update_com(): env_com: COM16, test success model num: 5270
+2024-02-03 14:56:59,529 - INFO - set_ps_com(): testing com: COM6 santized id: 
+2024-02-03 14:56:59,529 - ERROR - set_ps_com(): could not establish PS COM6, error: 
+2024-02-03 14:56:59,529 - ERROR - could not establish PS COM16, error: could not open port 'COM16': PermissionError(13, 'Access is denied.', None, 5)
+2024-02-03 14:57:00,691 - INFO - set_ps_com(): testing com: COM11 santized id: 
+2024-02-03 14:57:00,691 - ERROR - set_ps_com(): could not establish PS COM11, error: 
+2024-02-03 14:57:00,861 - INFO - set_ps_com(): testing com: COM9 santized id: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 14:57:00,861 - INFO - set_ps_com(): lv_com: COM9, test success model num: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 14:57:00,861 - DEBUG - set_ps_com(): hv_com: None, lv_com: COM9
+2024-02-03 14:57:00,861 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: COM9
+2024-02-03 15:00:22,694 - INFO - test_and_update_com(): testing com: COM6 with instrument: minimalmodbus.Instrument<id=0x1b272748dc0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1b272748f40, open=True>(port='COM6', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:00:23,019 - ERROR - could not establish Thermal Chamber COM6, error: No communication with the instrument (no answer)
+2024-02-03 15:00:23,134 - INFO - test_and_update_com(): testing com: COM16 with instrument: minimalmodbus.Instrument<id=0x1b272749000, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1b272748f10, open=True>(port='COM16', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:00:23,151 - INFO - test_and_update_com(): env_com: COM16, test success model num: 5270
+2024-02-03 15:00:26,214 - INFO - set_ps_com(): testing com: COM6 santized id: 
+2024-02-03 15:00:26,214 - ERROR - set_ps_com(): could not establish PS COM6, error: 
+2024-02-03 15:00:26,214 - ERROR - could not establish PS COM16, error: could not open port 'COM16': PermissionError(13, 'Access is denied.', None, 5)
+2024-02-03 15:00:27,373 - INFO - set_ps_com(): testing com: COM11 santized id: 
+2024-02-03 15:00:27,373 - ERROR - set_ps_com(): could not establish PS COM11, error: 
+2024-02-03 15:00:27,562 - INFO - set_ps_com(): testing com: COM9 santized id: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:00:27,562 - INFO - set_ps_com(): lv_com: COM9, test success model num: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:00:27,562 - DEBUG - set_ps_com(): hv_com: None, lv_com: COM9
+2024-02-03 15:00:27,562 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: COM9
+2024-02-03 15:01:44,117 - INFO - test_and_update_com(): testing com: COM6 with instrument: minimalmodbus.Instrument<id=0x225f7938fa0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x225f7939120, open=True>(port='COM6', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:01:44,438 - ERROR - could not establish Thermal Chamber COM6, error: No communication with the instrument (no answer)
+2024-02-03 15:01:44,553 - INFO - test_and_update_com(): testing com: COM16 with instrument: minimalmodbus.Instrument<id=0x225f79391e0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x225f79390f0, open=True>(port='COM16', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:01:44,578 - INFO - test_and_update_com(): env_com: COM16, test success model num: 5270
+2024-02-03 15:01:47,544 - INFO - set_ps_com(): testing com: COM6 santized id: 
+2024-02-03 15:01:47,544 - ERROR - set_ps_com(): could not establish PS COM6, error: 
+2024-02-03 15:01:47,544 - ERROR - could not establish PS COM16, error: could not open port 'COM16': PermissionError(13, 'Access is denied.', None, 5)
+2024-02-03 15:01:48,692 - INFO - set_ps_com(): testing com: COM11 santized id: 
+2024-02-03 15:01:48,693 - ERROR - set_ps_com(): could not establish PS COM11, error: 
+2024-02-03 15:01:48,879 - INFO - set_ps_com(): testing com: COM9 santized id: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:01:48,879 - INFO - set_ps_com(): lv_com: COM9, test success model num: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:01:48,879 - DEBUG - set_ps_com(): hv_com: None, lv_com: COM9
+2024-02-03 15:01:48,879 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: COM9
+2024-02-03 15:01:49,387 - DEBUG - lv_threshold(): volt_thresh: b'40.00\r\n', cur_thresh: b'44.00\r\n'
+2024-02-03 15:03:44,712 - INFO - test_and_update_com(): testing com: COM6 with instrument: minimalmodbus.Instrument<id=0x251d8435330, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x251d84354b0, open=True>(port='COM6', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:03:45,053 - ERROR - could not establish Thermal Chamber COM6, error: No communication with the instrument (no answer)
+2024-02-03 15:03:45,167 - INFO - test_and_update_com(): testing com: COM16 with instrument: minimalmodbus.Instrument<id=0x251d8435570, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x251d8435480, open=True>(port='COM16', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:03:45,192 - INFO - test_and_update_com(): env_com: COM16, test success model num: 5270
+2024-02-03 15:03:48,213 - INFO - set_ps_com(): testing com: COM6 santized id: 
+2024-02-03 15:03:48,213 - ERROR - set_ps_com(): could not establish PS COM6, error: 
+2024-02-03 15:03:48,213 - ERROR - could not establish PS COM16, error: could not open port 'COM16': PermissionError(13, 'Access is denied.', None, 5)
+2024-02-03 15:03:49,365 - INFO - set_ps_com(): testing com: COM11 santized id: 
+2024-02-03 15:03:49,365 - ERROR - set_ps_com(): could not establish PS COM11, error: 
+2024-02-03 15:03:49,574 - INFO - set_ps_com(): testing com: COM9 santized id: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:03:49,574 - INFO - set_ps_com(): lv_com: COM9, test success model num: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:03:49,574 - DEBUG - set_ps_com(): hv_com: None, lv_com: COM9
+2024-02-03 15:03:49,574 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: COM9
+2024-02-03 15:03:50,053 - DEBUG - lv_threshold(): volt_thresh: 40.00, cur_thresh: 44.00
+2024-02-03 15:09:50,632 - INFO - test_and_update_com(): testing com: COM6 with instrument: minimalmodbus.Instrument<id=0x1e13c6157e0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1e13c615960, open=True>(port='COM6', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:09:50,963 - ERROR - could not establish Thermal Chamber COM6, error: No communication with the instrument (no answer)
+2024-02-03 15:09:51,077 - INFO - test_and_update_com(): testing com: COM16 with instrument: minimalmodbus.Instrument<id=0x1e13c615a20, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1e13c615930, open=True>(port='COM16', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:09:51,096 - INFO - test_and_update_com(): env_com: COM16, test success model num: 5270
+2024-02-03 15:09:54,274 - INFO - set_ps_com(): testing com: COM6 santized id: 
+2024-02-03 15:09:54,275 - ERROR - set_ps_com(): could not establish PS COM6, error: 
+2024-02-03 15:09:54,275 - ERROR - could not establish PS COM16, error: could not open port 'COM16': PermissionError(13, 'Access is denied.', None, 5)
+2024-02-03 15:09:55,409 - INFO - set_ps_com(): testing com: COM11 santized id: 
+2024-02-03 15:09:55,409 - ERROR - set_ps_com(): could not establish PS COM11, error: 
+2024-02-03 15:09:55,606 - INFO - set_ps_com(): testing com: COM9 santized id: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:09:55,606 - INFO - set_ps_com(): lv_com: COM9, test success model num: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:09:55,606 - DEBUG - set_ps_com(): hv_com: None, lv_com: COM9
+2024-02-03 15:09:55,606 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: COM9
+2024-02-03 15:09:56,122 - DEBUG - lv_threshold(): volt_thresh: 40.00 volts, cur_thresh: 44.00 amps
+2024-02-03 15:09:58,414 - DEBUG - set_threshold(): volt_thresh: 24 volts, cur_thresh: 1 amps
+2024-02-03 15:11:34,682 - INFO - test_and_update_com(): testing com: COM6 with instrument: minimalmodbus.Instrument<id=0x208450f58a0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x208450f5a20, open=True>(port='COM6', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:11:35,016 - ERROR - could not establish Thermal Chamber COM6, error: No communication with the instrument (no answer)
+2024-02-03 15:11:35,129 - INFO - test_and_update_com(): testing com: COM16 with instrument: minimalmodbus.Instrument<id=0x208450f5ae0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x208450f59f0, open=True>(port='COM16', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:11:35,153 - INFO - test_and_update_com(): env_com: COM16, test success model num: 5270
+2024-02-03 15:11:38,610 - INFO - set_ps_com(): testing com: COM6 santized id: 
+2024-02-03 15:11:38,610 - ERROR - set_ps_com(): could not establish PS COM6, error: 
+2024-02-03 15:11:38,610 - ERROR - could not establish PS COM16, error: could not open port 'COM16': PermissionError(13, 'Access is denied.', None, 5)
+2024-02-03 15:11:39,744 - INFO - set_ps_com(): testing com: COM11 santized id: 
+2024-02-03 15:11:39,744 - ERROR - set_ps_com(): could not establish PS COM11, error: 
+2024-02-03 15:11:39,936 - INFO - set_ps_com(): testing com: COM9 santized id: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:11:39,936 - INFO - set_ps_com(): lv_com: COM9, test success model num: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:11:39,936 - DEBUG - set_ps_com(): hv_com: None, lv_com: COM9
+2024-02-03 15:11:39,936 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: COM9
+2024-02-03 15:11:40,416 - DEBUG - lv_threshold(): volt_thresh: 24.00 volts, cur_thresh: 4.00 amps
+2024-02-03 15:11:42,707 - DEBUG - set_threshold(): volt_thresh: 24 volts, cur_thresh: 1 amps
+2024-02-03 15:11:43,103 - DEBUG - lv_threshold(): volt_thresh: 24.00 volts, cur_thresh: 4.00 amps
+2024-02-03 15:15:56,547 - INFO - test_and_update_com(): testing com: COM6 with instrument: minimalmodbus.Instrument<id=0x2d1e2dc5ff0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x2d1e2dc6170, open=True>(port='COM6', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:15:56,860 - ERROR - could not establish Thermal Chamber COM6, error: No communication with the instrument (no answer)
+2024-02-03 15:15:56,972 - INFO - test_and_update_com(): testing com: COM16 with instrument: minimalmodbus.Instrument<id=0x2d1e2dc6230, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x2d1e2dc6140, open=True>(port='COM16', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:15:56,995 - INFO - test_and_update_com(): env_com: COM16, test success model num: 5270
+2024-02-03 15:16:00,081 - INFO - set_ps_com(): testing com: COM6 santized id: 
+2024-02-03 15:16:00,081 - ERROR - set_ps_com(): could not establish PS COM6, error: 
+2024-02-03 15:16:00,081 - ERROR - could not establish PS COM16, error: could not open port 'COM16': PermissionError(13, 'Access is denied.', None, 5)
+2024-02-03 15:16:01,214 - INFO - set_ps_com(): testing com: COM11 santized id: 
+2024-02-03 15:16:01,214 - ERROR - set_ps_com(): could not establish PS COM11, error: 
+2024-02-03 15:16:01,399 - INFO - set_ps_com(): testing com: COM9 santized id: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:16:01,399 - INFO - set_ps_com(): lv_com: COM9, test success model num: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:16:01,399 - DEBUG - set_ps_com(): hv_com: None, lv_com: COM9
+2024-02-03 15:16:01,399 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: COM9
+2024-02-03 15:16:01,888 - DEBUG - lv_threshold(): volt_thresh: 24.00 volts, cur_thresh: 4.00 amps
+2024-02-03 15:16:04,199 - DEBUG - set_threshold(): volt_thresh: 30 volts, cur_thresh: 5 amps
+2024-02-03 15:16:04,583 - DEBUG - lv_threshold(): volt_thresh: 30.00 volts, cur_thresh: 5.00 amps
+2024-02-03 15:16:05,729 - DEBUG - set_voltage(): voltage: 12 volts
+2024-02-03 15:16:06,848 - DEBUG - set_current(): current: 1 amps
+2024-02-03 15:18:57,562 - INFO - test_and_update_com(): testing com: COM6 with instrument: minimalmodbus.Instrument<id=0x14de92b5ff0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x14de92b6170, open=True>(port='COM6', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:18:57,881 - ERROR - could not establish Thermal Chamber COM6, error: No communication with the instrument (no answer)
+2024-02-03 15:18:57,997 - INFO - test_and_update_com(): testing com: COM16 with instrument: minimalmodbus.Instrument<id=0x14de92b6230, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x14de92b6140, open=True>(port='COM16', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:18:58,022 - INFO - test_and_update_com(): env_com: COM16, test success model num: 5270
+2024-02-03 15:19:01,086 - INFO - set_ps_com(): testing com: COM6 santized id: 
+2024-02-03 15:19:01,086 - ERROR - set_ps_com(): could not establish PS COM6, error: 
+2024-02-03 15:19:01,087 - ERROR - could not establish PS COM16, error: could not open port 'COM16': PermissionError(13, 'Access is denied.', None, 5)
+2024-02-03 15:19:02,223 - INFO - set_ps_com(): testing com: COM11 santized id: 
+2024-02-03 15:19:02,223 - ERROR - set_ps_com(): could not establish PS COM11, error: 
+2024-02-03 15:19:02,437 - INFO - set_ps_com(): testing com: COM9 santized id: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:19:02,437 - INFO - set_ps_com(): lv_com: COM9, test success model num: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:19:02,439 - DEBUG - set_ps_com(): hv_com: None, lv_com: COM9
+2024-02-03 15:19:02,439 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: COM9
+2024-02-03 15:19:02,964 - DEBUG - lv_threshold(): volt_thresh: 30.00 volts, cur_thresh: 5.00 amps
+2024-02-03 15:19:05,272 - DEBUG - set_threshold(): volt_thresh: 30 volts, cur_thresh: 5 amps
+2024-02-03 15:19:05,661 - DEBUG - lv_threshold(): volt_thresh: 30.00 volts, cur_thresh: 5.00 amps
+2024-02-03 15:19:06,815 - DEBUG - set_voltage(): voltage: 12 volts
+2024-02-03 15:19:07,963 - DEBUG - set_current(): current: 1 amps
+2024-02-03 15:19:57,583 - INFO - test_and_update_com(): testing com: COM6 with instrument: minimalmodbus.Instrument<id=0x120c3176290, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x120c3176410, open=True>(port='COM6', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:19:57,911 - ERROR - could not establish Thermal Chamber COM6, error: No communication with the instrument (no answer)
+2024-02-03 15:19:58,025 - INFO - test_and_update_com(): testing com: COM16 with instrument: minimalmodbus.Instrument<id=0x120c31764d0, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x120c31763e0, open=True>(port='COM16', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:19:58,042 - INFO - test_and_update_com(): env_com: COM16, test success model num: 5270
+2024-02-03 15:20:01,136 - INFO - set_ps_com(): testing com: COM6 santized id: 
+2024-02-03 15:20:01,136 - ERROR - set_ps_com(): could not establish PS COM6, error: 
+2024-02-03 15:20:01,136 - ERROR - could not establish PS COM16, error: could not open port 'COM16': PermissionError(13, 'Access is denied.', None, 5)
+2024-02-03 15:20:02,267 - INFO - set_ps_com(): testing com: COM11 santized id: 
+2024-02-03 15:20:02,267 - ERROR - set_ps_com(): could not establish PS COM11, error: 
+2024-02-03 15:20:02,471 - INFO - set_ps_com(): testing com: COM9 santized id: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:20:02,471 - INFO - set_ps_com(): lv_com: COM9, test success model num: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:20:02,471 - DEBUG - set_ps_com(): hv_com: None, lv_com: COM9
+2024-02-03 15:20:02,471 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: COM9
+2024-02-03 15:20:02,970 - DEBUG - lv_threshold(): volt_thresh: 30.00 volts, cur_thresh: 5.00 amps
+2024-02-03 15:20:05,258 - DEBUG - set_threshold(): volt_thresh: 30 volts, cur_thresh: 5 amps
+2024-02-03 15:20:05,650 - DEBUG - lv_threshold(): volt_thresh: 30.00 volts, cur_thresh: 5.00 amps
+2024-02-03 15:20:06,794 - DEBUG - set_voltage(): voltage: 12 volts
+2024-02-03 15:20:07,937 - DEBUG - set_current(): current: 1 amps
+2024-02-03 15:20:09,091 - DEBUG - reset_ps(): ps_com: COM9
+2024-02-03 15:20:28,646 - INFO - test_and_update_com(): testing com: COM6 with instrument: minimalmodbus.Instrument<id=0x288385d5f30, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x288385d60b0, open=True>(port='COM6', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:20:28,981 - ERROR - could not establish Thermal Chamber COM6, error: No communication with the instrument (no answer)
+2024-02-03 15:20:29,096 - INFO - test_and_update_com(): testing com: COM16 with instrument: minimalmodbus.Instrument<id=0x288385d6170, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x288385d6080, open=True>(port='COM16', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:20:29,122 - INFO - test_and_update_com(): env_com: COM16, test success model num: 5270
+2024-02-03 15:20:32,202 - INFO - set_ps_com(): testing com: COM6 santized id: 
+2024-02-03 15:20:32,202 - ERROR - set_ps_com(): could not establish PS COM6, error: 
+2024-02-03 15:20:32,202 - ERROR - could not establish PS COM16, error: could not open port 'COM16': PermissionError(13, 'Access is denied.', None, 5)
+2024-02-03 15:20:33,346 - INFO - set_ps_com(): testing com: COM11 santized id: 
+2024-02-03 15:20:33,346 - ERROR - set_ps_com(): could not establish PS COM11, error: 
+2024-02-03 15:20:33,553 - INFO - set_ps_com(): testing com: COM9 santized id: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:20:33,555 - INFO - set_ps_com(): lv_com: COM9, test success model num: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:20:33,555 - DEBUG - set_ps_com(): hv_com: None, lv_com: COM9
+2024-02-03 15:20:33,555 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: COM9
+2024-02-03 15:20:34,066 - DEBUG - lv_threshold(): volt_thresh: 30.00 volts, cur_thresh: 5.00 amps
+2024-02-03 15:20:35,211 - DEBUG - reset_ps(): ps_com: COM9
+2024-02-03 15:20:47,728 - INFO - test_and_update_com(): testing com: COM6 with instrument: minimalmodbus.Instrument<id=0x1f472f35f30, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1f472f360b0, open=True>(port='COM6', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:20:48,060 - ERROR - could not establish Thermal Chamber COM6, error: No communication with the instrument (no answer)
+2024-02-03 15:20:48,176 - INFO - test_and_update_com(): testing com: COM16 with instrument: minimalmodbus.Instrument<id=0x1f472f36170, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1f472f36080, open=True>(port='COM16', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:20:48,196 - INFO - test_and_update_com(): env_com: COM16, test success model num: 5270
+2024-02-03 15:20:51,269 - INFO - set_ps_com(): testing com: COM6 santized id: 
+2024-02-03 15:20:51,269 - ERROR - set_ps_com(): could not establish PS COM6, error: 
+2024-02-03 15:20:51,269 - ERROR - could not establish PS COM16, error: could not open port 'COM16': PermissionError(13, 'Access is denied.', None, 5)
+2024-02-03 15:20:52,425 - INFO - set_ps_com(): testing com: COM11 santized id: 
+2024-02-03 15:20:52,425 - ERROR - set_ps_com(): could not establish PS COM11, error: 
+2024-02-03 15:20:52,614 - INFO - set_ps_com(): testing com: COM9 santized id: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:20:52,614 - INFO - set_ps_com(): lv_com: COM9, test success model num: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:20:52,614 - DEBUG - set_ps_com(): hv_com: None, lv_com: COM9
+2024-02-03 15:20:52,614 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: COM9
+2024-02-03 15:20:53,124 - DEBUG - lv_threshold(): volt_thresh: 30.00 volts, cur_thresh: 5.00 amps
+2024-02-03 15:20:54,281 - DEBUG - reset_ps(): ps_com: COM9
+2024-02-03 15:24:06,568 - INFO - test_and_update_com(): testing com: COM6 with instrument: minimalmodbus.Instrument<id=0x228313d5f30, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x228313d60b0, open=True>(port='COM6', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:24:06,908 - ERROR - could not establish Thermal Chamber COM6, error: No communication with the instrument (no answer)
+2024-02-03 15:24:07,022 - INFO - test_and_update_com(): testing com: COM16 with instrument: minimalmodbus.Instrument<id=0x228313d6170, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x228313d6080, open=True>(port='COM16', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:24:07,048 - INFO - test_and_update_com(): env_com: COM16, test success model num: 5270
+2024-02-03 15:24:10,086 - INFO - set_ps_com(): testing com: COM6 santized id: 
+2024-02-03 15:24:10,087 - ERROR - set_ps_com(): could not establish PS COM6, error: 
+2024-02-03 15:24:10,087 - ERROR - could not establish PS COM16, error: could not open port 'COM16': PermissionError(13, 'Access is denied.', None, 5)
+2024-02-03 15:24:11,216 - INFO - set_ps_com(): testing com: COM11 santized id: 
+2024-02-03 15:24:11,216 - ERROR - set_ps_com(): could not establish PS COM11, error: 
+2024-02-03 15:24:11,404 - INFO - set_ps_com(): testing com: COM9 santized id: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:24:11,404 - INFO - set_ps_com(): lv_com: COM9, test success model num: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:24:11,404 - DEBUG - set_ps_com(): hv_com: None, lv_com: COM9
+2024-02-03 15:24:11,404 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: COM9
+2024-02-03 15:24:11,937 - DEBUG - lv_threshold(): volt_thresh: 30.00 volts, cur_thresh: 5.00 amps
+2024-02-03 15:24:30,399 - INFO - test_and_update_com(): testing com: COM6 with instrument: minimalmodbus.Instrument<id=0x1db1e9e5f30, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1db1e9e60b0, open=True>(port='COM6', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:24:30,730 - ERROR - could not establish Thermal Chamber COM6, error: No communication with the instrument (no answer)
+2024-02-03 15:24:30,843 - INFO - test_and_update_com(): testing com: COM16 with instrument: minimalmodbus.Instrument<id=0x1db1e9e6170, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1db1e9e6080, open=True>(port='COM16', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:24:30,868 - INFO - test_and_update_com(): env_com: COM16, test success model num: 5270
+2024-02-03 15:24:33,916 - INFO - set_ps_com(): testing com: COM6 santized id: 
+2024-02-03 15:24:33,916 - ERROR - set_ps_com(): could not establish PS COM6, error: 
+2024-02-03 15:24:33,916 - ERROR - could not establish PS COM16, error: could not open port 'COM16': PermissionError(13, 'Access is denied.', None, 5)
+2024-02-03 15:24:35,080 - INFO - set_ps_com(): testing com: COM11 santized id: 
+2024-02-03 15:24:35,080 - ERROR - set_ps_com(): could not establish PS COM11, error: 
+2024-02-03 15:24:35,291 - INFO - set_ps_com(): testing com: COM9 santized id: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:24:35,291 - INFO - set_ps_com(): lv_com: COM9, test success model num: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:24:35,291 - DEBUG - set_ps_com(): hv_com: None, lv_com: COM9
+2024-02-03 15:24:35,291 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: COM9
+2024-02-03 15:24:35,803 - DEBUG - lv_threshold(): volt_thresh: 30.00 volts, cur_thresh: 5.00 amps
+2024-02-03 15:24:36,951 - DEBUG - clear_ovt(): ps_com: COM9
+2024-02-03 15:26:23,722 - INFO - test_and_update_com(): testing com: COM6 with instrument: minimalmodbus.Instrument<id=0x2594aa15f30, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x2594aa160b0, open=True>(port='COM6', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:26:24,056 - ERROR - could not establish Thermal Chamber COM6, error: No communication with the instrument (no answer)
+2024-02-03 15:26:24,167 - INFO - test_and_update_com(): testing com: COM16 with instrument: minimalmodbus.Instrument<id=0x2594aa16170, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x2594aa16080, open=True>(port='COM16', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:26:24,195 - INFO - test_and_update_com(): env_com: COM16, test success model num: 5270
+2024-02-03 15:26:27,468 - INFO - set_ps_com(): testing com: COM6 santized id: 
+2024-02-03 15:26:27,468 - ERROR - set_ps_com(): could not establish PS COM6, error: 
+2024-02-03 15:26:27,468 - ERROR - could not establish PS COM16, error: could not open port 'COM16': PermissionError(13, 'Access is denied.', None, 5)
+2024-02-03 15:26:28,612 - INFO - set_ps_com(): testing com: COM11 santized id: 
+2024-02-03 15:26:28,612 - ERROR - set_ps_com(): could not establish PS COM11, error: 
+2024-02-03 15:26:28,800 - INFO - set_ps_com(): testing com: COM9 santized id: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:26:28,800 - INFO - set_ps_com(): lv_com: COM9, test success model num: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:26:28,800 - DEBUG - set_ps_com(): hv_com: None, lv_com: COM9
+2024-02-03 15:26:28,800 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: COM9
+2024-02-03 15:26:29,300 - DEBUG - lv_threshold(): volt_thresh: 30.00 volts, cur_thresh: 5.00 amps
+2024-02-03 15:26:30,468 - DEBUG - clear_ovt(): ps_com: COM9
+2024-02-03 15:32:11,220 - INFO - test_and_update_com(): testing com: COM6 with instrument: minimalmodbus.Instrument<id=0x1cb6df65f30, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1cb6df660b0, open=True>(port='COM6', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:32:11,541 - ERROR - could not establish Thermal Chamber COM6, error: No communication with the instrument (no answer)
+2024-02-03 15:32:11,654 - INFO - test_and_update_com(): testing com: COM16 with instrument: minimalmodbus.Instrument<id=0x1cb6df66170, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1cb6df66080, open=True>(port='COM16', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:32:11,679 - INFO - test_and_update_com(): env_com: COM16, test success model num: 5270
+2024-02-03 15:32:14,951 - INFO - set_ps_com(): testing com: COM6 santized id: 
+2024-02-03 15:32:14,951 - ERROR - set_ps_com(): could not establish PS COM6, error: 
+2024-02-03 15:32:14,951 - ERROR - could not establish PS COM16, error: could not open port 'COM16': PermissionError(13, 'Access is denied.', None, 5)
+2024-02-03 15:32:16,089 - INFO - set_ps_com(): testing com: COM11 santized id: 
+2024-02-03 15:32:16,089 - ERROR - set_ps_com(): could not establish PS COM11, error: 
+2024-02-03 15:32:16,269 - INFO - set_ps_com(): testing com: COM9 santized id: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:32:16,277 - INFO - set_ps_com(): lv_com: COM9, test success model num: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:32:16,277 - DEBUG - set_ps_com(): hv_com: None, lv_com: COM9
+2024-02-03 15:32:16,277 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: COM9
+2024-02-03 15:32:16,758 - DEBUG - lv_threshold(): volt_thresh: 30.00 volts, cur_thresh: 5.00 amps
+2024-02-03 15:32:17,900 - DEBUG - clear_ovt(): ps_com: COM9
+2024-02-03 15:32:20,142 - INFO - test_and_update_com(): testing com: COM6 with instrument: minimalmodbus.Instrument<id=0x1965b115f30, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1965b1160b0, open=True>(port='COM6', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:32:20,450 - ERROR - could not establish Thermal Chamber COM6, error: No communication with the instrument (no answer)
+2024-02-03 15:32:20,565 - INFO - test_and_update_com(): testing com: COM16 with instrument: minimalmodbus.Instrument<id=0x1965b116170, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1965b116080, open=True>(port='COM16', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:32:20,589 - INFO - test_and_update_com(): env_com: COM16, test success model num: 5270
+2024-02-03 15:32:23,243 - INFO - set_ps_com(): testing com: COM6 santized id: 
+2024-02-03 15:32:23,243 - ERROR - set_ps_com(): could not establish PS COM6, error: 
+2024-02-03 15:32:23,243 - ERROR - could not establish PS COM16, error: could not open port 'COM16': PermissionError(13, 'Access is denied.', None, 5)
+2024-02-03 15:32:24,390 - INFO - set_ps_com(): testing com: COM11 santized id: 
+2024-02-03 15:32:24,390 - ERROR - set_ps_com(): could not establish PS COM11, error: 
+2024-02-03 15:32:24,579 - INFO - set_ps_com(): testing com: COM9 santized id: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:32:24,579 - INFO - set_ps_com(): lv_com: COM9, test success model num: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:32:24,579 - DEBUG - set_ps_com(): hv_com: None, lv_com: COM9
+2024-02-03 15:32:24,579 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: COM9
+2024-02-03 15:32:25,083 - DEBUG - lv_threshold(): volt_thresh: 30.00 volts, cur_thresh: 5.00 amps
+2024-02-03 15:32:26,232 - DEBUG - clear_ovt(): ps_com: COM9
+2024-02-03 15:38:46,499 - INFO - test_and_update_com(): testing com: COM6 with instrument: minimalmodbus.Instrument<id=0x19a8b235f30, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x19a8b2360b0, open=True>(port='COM6', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:38:46,828 - ERROR - could not establish Thermal Chamber COM6, error: No communication with the instrument (no answer)
+2024-02-03 15:38:46,943 - INFO - test_and_update_com(): testing com: COM16 with instrument: minimalmodbus.Instrument<id=0x19a8b236170, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x19a8b236080, open=True>(port='COM16', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:38:46,967 - INFO - test_and_update_com(): env_com: COM16, test success model num: 5270
+2024-02-03 15:38:50,048 - INFO - set_ps_com(): testing com: COM6 santized id: 
+2024-02-03 15:38:50,049 - ERROR - set_ps_com(): could not establish PS COM6, error: 
+2024-02-03 15:38:50,049 - ERROR - could not establish PS COM16, error: could not open port 'COM16': PermissionError(13, 'Access is denied.', None, 5)
+2024-02-03 15:38:51,203 - INFO - set_ps_com(): testing com: COM11 santized id: 
+2024-02-03 15:38:51,203 - ERROR - set_ps_com(): could not establish PS COM11, error: 
+2024-02-03 15:38:51,392 - INFO - set_ps_com(): testing com: COM9 santized id: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:38:51,392 - INFO - set_ps_com(): lv_com: COM9, test success model num: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:38:51,392 - DEBUG - set_ps_com(): hv_com: None, lv_com: COM9
+2024-02-03 15:38:51,392 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: COM9
+2024-02-03 15:38:51,911 - DEBUG - lv_threshold(): volt_thresh: 30.00 volts, cur_thresh: 5.00 amps
+2024-02-03 15:38:53,071 - DEBUG - clear_ovt(): ps_com: COM9
+2024-02-03 15:39:09,432 - INFO - test_and_update_com(): testing com: COM6 with instrument: minimalmodbus.Instrument<id=0x2dcbf155f30, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x2dcbf1560b0, open=True>(port='COM6', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:39:09,763 - ERROR - could not establish Thermal Chamber COM6, error: No communication with the instrument (no answer)
+2024-02-03 15:39:09,877 - INFO - test_and_update_com(): testing com: COM16 with instrument: minimalmodbus.Instrument<id=0x2dcbf156170, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x2dcbf156080, open=True>(port='COM16', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:39:09,902 - INFO - test_and_update_com(): env_com: COM16, test success model num: 5270
+2024-02-03 15:39:13,004 - INFO - set_ps_com(): testing com: COM6 santized id: 
+2024-02-03 15:39:13,004 - ERROR - set_ps_com(): could not establish PS COM6, error: 
+2024-02-03 15:39:13,007 - ERROR - could not establish PS COM16, error: could not open port 'COM16': PermissionError(13, 'Access is denied.', None, 5)
+2024-02-03 15:39:14,153 - INFO - set_ps_com(): testing com: COM11 santized id: 
+2024-02-03 15:39:14,153 - ERROR - set_ps_com(): could not establish PS COM11, error: 
+2024-02-03 15:39:14,330 - INFO - set_ps_com(): testing com: COM9 santized id: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:39:14,330 - INFO - set_ps_com(): lv_com: COM9, test success model num: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:39:14,330 - DEBUG - set_ps_com(): hv_com: None, lv_com: COM9
+2024-02-03 15:39:14,330 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: COM9
+2024-02-03 15:39:14,855 - DEBUG - lv_threshold(): volt_thresh: 30.00 volts, cur_thresh: 5.00 amps
+2024-02-03 15:39:15,993 - DEBUG - clear_ovt(): ps_com: COM9
+2024-02-03 15:39:31,071 - INFO - test_and_update_com(): testing com: COM6 with instrument: minimalmodbus.Instrument<id=0x1782bb25f30, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1782bb260b0, open=True>(port='COM6', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:39:31,397 - ERROR - could not establish Thermal Chamber COM6, error: No communication with the instrument (no answer)
+2024-02-03 15:39:31,510 - INFO - test_and_update_com(): testing com: COM16 with instrument: minimalmodbus.Instrument<id=0x1782bb26170, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x1782bb26080, open=True>(port='COM16', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:39:31,534 - INFO - test_and_update_com(): env_com: COM16, test success model num: 5270
+2024-02-03 15:39:34,587 - INFO - set_ps_com(): testing com: COM6 santized id: 
+2024-02-03 15:39:34,587 - ERROR - set_ps_com(): could not establish PS COM6, error: 
+2024-02-03 15:39:34,587 - ERROR - could not establish PS COM16, error: could not open port 'COM16': PermissionError(13, 'Access is denied.', None, 5)
+2024-02-03 15:39:35,736 - INFO - set_ps_com(): testing com: COM11 santized id: 
+2024-02-03 15:39:35,736 - ERROR - set_ps_com(): could not establish PS COM11, error: 
+2024-02-03 15:39:35,918 - INFO - set_ps_com(): testing com: COM9 santized id: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:39:35,918 - INFO - set_ps_com(): lv_com: COM9, test success model num: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:39:35,918 - DEBUG - set_ps_com(): hv_com: None, lv_com: COM9
+2024-02-03 15:39:35,924 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: COM9
+2024-02-03 15:39:36,443 - DEBUG - lv_threshold(): volt_thresh: 30.00 volts, cur_thresh: 5.00 amps
+2024-02-03 15:39:37,589 - DEBUG - clear_ovt(): ps_com: COM9
+2024-02-03 15:43:06,991 - INFO - test_and_update_com(): testing com: COM6 with instrument: minimalmodbus.Instrument<id=0x26ae1e95f30, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x26ae1e960b0, open=True>(port='COM6', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:43:07,326 - ERROR - could not establish Thermal Chamber COM6, error: No communication with the instrument (no answer)
+2024-02-03 15:43:07,441 - INFO - test_and_update_com(): testing com: COM16 with instrument: minimalmodbus.Instrument<id=0x26ae1e96170, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x26ae1e96080, open=True>(port='COM16', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.2, xonxoff=False, rtscts=False, dsrdtr=False)>
+2024-02-03 15:43:07,466 - INFO - test_and_update_com(): env_com: COM16, test success model num: 5270
+2024-02-03 15:43:10,636 - INFO - set_ps_com(): testing com: COM6 santized id: 
+2024-02-03 15:43:10,636 - ERROR - set_ps_com(): could not establish PS COM6, error: 
+2024-02-03 15:43:10,638 - ERROR - could not establish PS COM16, error: could not open port 'COM16': PermissionError(13, 'Access is denied.', None, 5)
+2024-02-03 15:43:11,777 - INFO - set_ps_com(): testing com: COM11 santized id: 
+2024-02-03 15:43:11,778 - ERROR - set_ps_com(): could not establish PS COM11, error: 
+2024-02-03 15:43:11,968 - INFO - set_ps_com(): testing com: COM9 santized id: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:43:11,968 - INFO - set_ps_com(): lv_com: COM9, test success model num: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:43:11,968 - DEBUG - set_ps_com(): hv_com: None, lv_com: COM9
+2024-02-03 15:43:11,968 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: COM9
+2024-02-03 15:43:12,482 - DEBUG - lv_threshold(): volt_thresh: 30.00 volts, cur_thresh: 5.00 amps
+2024-02-03 15:43:13,631 - DEBUG - clear_ovt(): ps_com: COM9
+2024-02-03 15:48:17,785 - INFO - set_ps_com(): testing com: COM6 santized id: 
+2024-02-03 15:48:17,785 - ERROR - set_ps_com(): could not establish PS COM6, error: 
+2024-02-03 15:48:18,994 - INFO - set_ps_com(): testing com: COM16 santized id: 
+2024-02-03 15:48:18,995 - ERROR - set_ps_com(): could not establish PS COM16, error: 
+2024-02-03 15:48:20,077 - INFO - set_ps_com(): testing com: COM11 santized id: 
+2024-02-03 15:48:20,077 - ERROR - set_ps_com(): could not establish PS COM11, error: 
+2024-02-03 15:48:20,279 - INFO - set_ps_com(): testing com: COM9 santized id: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:48:20,279 - INFO - set_ps_com(): lv_com: COM9, test success model num: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:48:20,282 - DEBUG - set_ps_com(): hv_com: None, lv_com: COM9
+2024-02-03 15:48:20,282 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: COM9
+2024-02-03 15:48:53,088 - INFO - set_ps_com(): testing com: COM6 santized id: 
+2024-02-03 15:48:53,088 - ERROR - set_ps_com(): could not establish PS COM6, error: 
+2024-02-03 15:48:54,297 - INFO - set_ps_com(): testing com: COM16 santized id: 
+2024-02-03 15:48:54,297 - ERROR - set_ps_com(): could not establish PS COM16, error: 
+2024-02-03 15:48:55,385 - INFO - set_ps_com(): testing com: COM11 santized id: 
+2024-02-03 15:48:55,385 - ERROR - set_ps_com(): could not establish PS COM11, error: 
+2024-02-03 15:48:55,567 - INFO - set_ps_com(): testing com: COM9 santized id: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:48:55,567 - INFO - set_ps_com(): lv_com: COM9, test success model num: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:48:55,575 - DEBUG - set_ps_com(): hv_com: None, lv_com: COM9
+2024-02-03 15:48:55,575 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: COM9
+2024-02-03 15:52:11,051 - INFO - set_ps_com(): testing com: COM6 santized id: 
+2024-02-03 15:52:11,051 - ERROR - set_ps_com(): could not establish PS COM6, error: 
+2024-02-03 15:52:12,260 - INFO - set_ps_com(): testing com: COM16 santized id: 
+2024-02-03 15:52:12,260 - ERROR - set_ps_com(): could not establish PS COM16, error: 
+2024-02-03 15:52:13,352 - INFO - set_ps_com(): testing com: COM11 santized id: 
+2024-02-03 15:52:13,352 - ERROR - set_ps_com(): could not establish PS COM11, error: 
+2024-02-03 15:52:13,529 - INFO - set_ps_com(): testing com: COM9 santized id: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:52:13,530 - INFO - set_ps_com(): lv_com: COM9, test success model num: Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051
+2024-02-03 15:52:13,530 - DEBUG - set_ps_com(): hv_com: None, lv_com: COM9
+2024-02-03 15:52:13,530 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: COM9
+2024-02-03 15:56:47,102 - DEBUG - send_scpi(): com: COM6, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 15:56:48,236 - INFO - set_ps_com(): testing com: COM6 santized id: b''
+2024-02-03 15:56:48,236 - ERROR - could not establish PS COM6, error: a bytes-like object is required, not 'str'
+2024-02-03 15:56:48,304 - DEBUG - send_scpi(): com: COM16, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 15:56:49,359 - INFO - set_ps_com(): testing com: COM16 santized id: b''
+2024-02-03 15:56:49,359 - ERROR - could not establish PS COM16, error: a bytes-like object is required, not 'str'
+2024-02-03 15:56:49,390 - DEBUG - send_scpi(): com: COM11, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 15:56:50,521 - INFO - set_ps_com(): testing com: COM11 santized id: b''
+2024-02-03 15:56:50,522 - ERROR - could not establish PS COM11, error: a bytes-like object is required, not 'str'
+2024-02-03 15:56:50,559 - DEBUG - send_scpi(): com: COM9, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 15:56:50,735 - INFO - set_ps_com(): testing com: COM9 santized id: b'Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051\r\n'
+2024-02-03 15:56:50,737 - ERROR - could not establish PS COM9, error: a bytes-like object is required, not 'str'
+2024-02-03 15:56:50,737 - DEBUG - set_ps_com(): hv_com: None, lv_com: None
+2024-02-03 15:56:50,737 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: None
+2024-02-03 16:00:52,825 - DEBUG - send_scpi(): com: COM6, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:00:53,947 - INFO - set_ps_com(): testing com: COM6 santized id: b''
+2024-02-03 16:00:53,947 - ERROR - could not establish PS COM6, error: a bytes-like object is required, not 'str'
+2024-02-03 16:00:54,015 - DEBUG - send_scpi(): com: COM16, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:00:55,078 - INFO - set_ps_com(): testing com: COM16 santized id: b''
+2024-02-03 16:00:55,082 - ERROR - could not establish PS COM16, error: a bytes-like object is required, not 'str'
+2024-02-03 16:00:55,118 - DEBUG - send_scpi(): com: COM11, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:00:56,248 - INFO - set_ps_com(): testing com: COM11 santized id: b''
+2024-02-03 16:00:56,249 - ERROR - could not establish PS COM11, error: a bytes-like object is required, not 'str'
+2024-02-03 16:00:56,280 - DEBUG - send_scpi(): com: COM9, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:00:56,470 - INFO - set_ps_com(): testing com: COM9 santized id: b'Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051\r\n'
+2024-02-03 16:00:56,472 - ERROR - could not establish PS COM9, error: a bytes-like object is required, not 'str'
+2024-02-03 16:00:56,474 - DEBUG - set_ps_com(): hv_com: None, lv_com: None
+2024-02-03 16:00:56,474 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: None
+2024-02-03 16:03:20,595 - DEBUG - send_scpi(): com: COM6, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:03:21,721 - INFO - set_ps_com(): testing com: COM6 santized id: b''
+2024-02-03 16:03:21,721 - ERROR - could not establish PS COM6, error: a bytes-like object is required, not 'str'
+2024-02-03 16:03:21,790 - DEBUG - send_scpi(): com: COM16, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:03:22,859 - INFO - set_ps_com(): testing com: COM16 santized id: b''
+2024-02-03 16:03:22,860 - ERROR - could not establish PS COM16, error: a bytes-like object is required, not 'str'
+2024-02-03 16:03:22,886 - DEBUG - send_scpi(): com: COM11, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:03:24,014 - INFO - set_ps_com(): testing com: COM11 santized id: b''
+2024-02-03 16:03:24,014 - ERROR - could not establish PS COM11, error: a bytes-like object is required, not 'str'
+2024-02-03 16:03:24,041 - DEBUG - send_scpi(): com: COM9, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:03:24,210 - INFO - set_ps_com(): testing com: COM9 santized id: b'Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051\r\n'
+2024-02-03 16:03:24,211 - ERROR - could not establish PS COM9, error: a bytes-like object is required, not 'str'
+2024-02-03 16:03:24,211 - DEBUG - set_ps_com(): hv_com: None, lv_com: None
+2024-02-03 16:03:24,211 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: None
+2024-02-03 16:05:33,809 - DEBUG - send_scpi(): com: COM6, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:05:34,932 - INFO - set_ps_com(): testing com: COM6 santized id: b''
+2024-02-03 16:05:34,932 - ERROR - could not establish PS COM6, error: a bytes-like object is required, not 'str'
+2024-02-03 16:05:35,003 - DEBUG - send_scpi(): com: COM16, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:05:36,067 - INFO - set_ps_com(): testing com: COM16 santized id: b''
+2024-02-03 16:05:36,067 - ERROR - could not establish PS COM16, error: a bytes-like object is required, not 'str'
+2024-02-03 16:05:36,099 - DEBUG - send_scpi(): com: COM11, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:05:37,225 - INFO - set_ps_com(): testing com: COM11 santized id: b''
+2024-02-03 16:05:37,229 - ERROR - could not establish PS COM11, error: a bytes-like object is required, not 'str'
+2024-02-03 16:05:37,258 - DEBUG - send_scpi(): com: COM9, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:05:37,448 - INFO - set_ps_com(): testing com: COM9 santized id: b'Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051\r\n'
+2024-02-03 16:05:37,448 - ERROR - could not establish PS COM9, error: a bytes-like object is required, not 'str'
+2024-02-03 16:05:37,448 - DEBUG - set_ps_com(): hv_com: None, lv_com: None
+2024-02-03 16:05:37,448 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: None
+2024-02-03 16:08:00,053 - DEBUG - send_scpi(): com: COM6, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:08:01,182 - INFO - set_ps_com(): testing com: COM6 santized id: b''
+2024-02-03 16:08:01,182 - ERROR - could not establish PS COM6, error: a bytes-like object is required, not 'str'
+2024-02-03 16:08:01,252 - DEBUG - send_scpi(): com: COM16, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:08:02,302 - INFO - set_ps_com(): testing com: COM16 santized id: b''
+2024-02-03 16:08:02,305 - ERROR - could not establish PS COM16, error: a bytes-like object is required, not 'str'
+2024-02-03 16:08:02,343 - DEBUG - send_scpi(): com: COM11, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:08:03,479 - INFO - set_ps_com(): testing com: COM11 santized id: b''
+2024-02-03 16:08:03,480 - ERROR - could not establish PS COM11, error: a bytes-like object is required, not 'str'
+2024-02-03 16:08:03,521 - DEBUG - send_scpi(): com: COM9, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:08:03,703 - INFO - set_ps_com(): testing com: COM9 santized id: b'Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051\r\n'
+2024-02-03 16:08:03,703 - ERROR - could not establish PS COM9, error: a bytes-like object is required, not 'str'
+2024-02-03 16:08:03,703 - DEBUG - set_ps_com(): hv_com: None, lv_com: None
+2024-02-03 16:08:03,703 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: None
+2024-02-03 16:10:28,516 - DEBUG - send_scpi(): com: COM6, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:10:29,636 - INFO - set_ps_com(): testing com: COM6 santized id: b''
+2024-02-03 16:10:29,636 - ERROR - could not establish PS COM6, error: a bytes-like object is required, not 'str'
+2024-02-03 16:10:29,704 - DEBUG - send_scpi(): com: COM16, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:10:30,764 - INFO - set_ps_com(): testing com: COM16 santized id: b''
+2024-02-03 16:10:30,765 - ERROR - could not establish PS COM16, error: a bytes-like object is required, not 'str'
+2024-02-03 16:10:30,801 - DEBUG - send_scpi(): com: COM11, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:10:31,927 - INFO - set_ps_com(): testing com: COM11 santized id: b''
+2024-02-03 16:10:31,927 - ERROR - could not establish PS COM11, error: a bytes-like object is required, not 'str'
+2024-02-03 16:10:31,964 - DEBUG - send_scpi(): com: COM9, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:10:32,130 - INFO - set_ps_com(): testing com: COM9 santized id: b'Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051\r\n'
+2024-02-03 16:10:32,130 - ERROR - could not establish PS COM9, error: a bytes-like object is required, not 'str'
+2024-02-03 16:10:32,130 - DEBUG - set_ps_com(): hv_com: None, lv_com: None
+2024-02-03 16:10:32,130 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: None
+2024-02-03 16:10:33,713 - DEBUG - send_scpi(): com: COM6, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:10:34,839 - INFO - set_ps_com(): testing com: COM6 santized id: b''
+2024-02-03 16:10:34,839 - ERROR - could not establish PS COM6, error: a bytes-like object is required, not 'str'
+2024-02-03 16:10:34,907 - DEBUG - send_scpi(): com: COM16, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:10:35,974 - INFO - set_ps_com(): testing com: COM16 santized id: b''
+2024-02-03 16:10:35,975 - ERROR - could not establish PS COM16, error: a bytes-like object is required, not 'str'
+2024-02-03 16:10:36,004 - DEBUG - send_scpi(): com: COM11, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:10:37,138 - INFO - set_ps_com(): testing com: COM11 santized id: b''
+2024-02-03 16:10:37,138 - ERROR - could not establish PS COM11, error: a bytes-like object is required, not 'str'
+2024-02-03 16:10:37,168 - DEBUG - send_scpi(): com: COM9, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:10:37,342 - INFO - set_ps_com(): testing com: COM9 santized id: b'Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051\r\n'
+2024-02-03 16:10:37,343 - ERROR - could not establish PS COM9, error: a bytes-like object is required, not 'str'
+2024-02-03 16:10:37,343 - DEBUG - set_ps_com(): hv_com: None, lv_com: None
+2024-02-03 16:10:37,343 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: None
+2024-02-03 16:12:08,522 - DEBUG - send_scpi(): com: COM6, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:12:09,650 - INFO - set_ps_com(): testing com: COM6 santized id: b''
+2024-02-03 16:12:09,650 - ERROR - could not establish PS COM6, error: a bytes-like object is required, not 'str'
+2024-02-03 16:12:09,717 - DEBUG - send_scpi(): com: COM16, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:12:10,782 - INFO - set_ps_com(): testing com: COM16 santized id: b''
+2024-02-03 16:12:10,782 - ERROR - could not establish PS COM16, error: a bytes-like object is required, not 'str'
+2024-02-03 16:12:10,812 - DEBUG - send_scpi(): com: COM11, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:12:11,932 - INFO - set_ps_com(): testing com: COM11 santized id: b''
+2024-02-03 16:12:11,932 - ERROR - could not establish PS COM11, error: a bytes-like object is required, not 'str'
+2024-02-03 16:12:11,961 - DEBUG - send_scpi(): com: COM9, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:12:12,148 - INFO - set_ps_com(): testing com: COM9 santized id: b'Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051\r\n'
+2024-02-03 16:12:12,148 - ERROR - could not establish PS COM9, error: a bytes-like object is required, not 'str'
+2024-02-03 16:12:12,148 - DEBUG - set_ps_com(): hv_com: None, lv_com: None
+2024-02-03 16:12:12,148 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: None
+2024-02-03 16:13:03,204 - DEBUG - send_scpi(): com: COM6, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:13:04,337 - INFO - set_ps_com(): testing com: COM6 santized id: b''
+2024-02-03 16:13:04,338 - ERROR - could not establish PS COM6, error: a bytes-like object is required, not 'str'
+2024-02-03 16:13:04,403 - DEBUG - send_scpi(): com: COM16, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:13:05,464 - INFO - set_ps_com(): testing com: COM16 santized id: b''
+2024-02-03 16:13:05,464 - ERROR - could not establish PS COM16, error: a bytes-like object is required, not 'str'
+2024-02-03 16:13:05,500 - DEBUG - send_scpi(): com: COM11, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:13:06,622 - INFO - set_ps_com(): testing com: COM11 santized id: b''
+2024-02-03 16:13:06,622 - ERROR - could not establish PS COM11, error: a bytes-like object is required, not 'str'
+2024-02-03 16:13:06,649 - DEBUG - send_scpi(): com: COM9, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:13:06,830 - INFO - set_ps_com(): testing com: COM9 santized id: b'Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051\r\n'
+2024-02-03 16:13:06,830 - ERROR - could not establish PS COM9, error: a bytes-like object is required, not 'str'
+2024-02-03 16:13:06,830 - DEBUG - set_ps_com(): hv_com: None, lv_com: None
+2024-02-03 16:13:06,830 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: None
+2024-02-03 16:13:26,921 - DEBUG - send_scpi(): com: COM6, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:13:28,061 - INFO - set_ps_com(): testing com: COM6 santized id: b''
+2024-02-03 16:13:28,061 - ERROR - could not establish PS COM6, error: a bytes-like object is required, not 'str'
+2024-02-03 16:13:28,129 - DEBUG - send_scpi(): com: COM16, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:13:29,182 - INFO - set_ps_com(): testing com: COM16 santized id: b''
+2024-02-03 16:13:29,182 - ERROR - could not establish PS COM16, error: a bytes-like object is required, not 'str'
+2024-02-03 16:13:29,212 - DEBUG - send_scpi(): com: COM11, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:13:30,345 - INFO - set_ps_com(): testing com: COM11 santized id: b''
+2024-02-03 16:13:30,345 - ERROR - could not establish PS COM11, error: a bytes-like object is required, not 'str'
+2024-02-03 16:13:30,379 - DEBUG - send_scpi(): com: COM9, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:13:30,565 - INFO - set_ps_com(): testing com: COM9 santized id: b'Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051\r\n'
+2024-02-03 16:13:30,565 - ERROR - could not establish PS COM9, error: a bytes-like object is required, not 'str'
+2024-02-03 16:13:30,566 - DEBUG - set_ps_com(): hv_com: None, lv_com: None
+2024-02-03 16:13:30,566 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: None
+2024-02-03 16:13:39,489 - DEBUG - send_scpi(): com: COM6, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:13:40,622 - INFO - set_ps_com(): testing com: COM6 santized id: b''
+2024-02-03 16:13:40,622 - ERROR - could not establish PS COM6, error: a bytes-like object is required, not 'str'
+2024-02-03 16:13:40,690 - DEBUG - send_scpi(): com: COM16, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:13:41,745 - INFO - set_ps_com(): testing com: COM16 santized id: b''
+2024-02-03 16:13:41,746 - ERROR - could not establish PS COM16, error: a bytes-like object is required, not 'str'
+2024-02-03 16:13:41,779 - DEBUG - send_scpi(): com: COM11, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:13:42,911 - INFO - set_ps_com(): testing com: COM11 santized id: b''
+2024-02-03 16:13:42,912 - ERROR - could not establish PS COM11, error: a bytes-like object is required, not 'str'
+2024-02-03 16:13:42,940 - DEBUG - send_scpi(): com: COM9, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:13:43,129 - INFO - set_ps_com(): testing com: COM9 santized id: b'Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051\r\n'
+2024-02-03 16:13:43,129 - ERROR - could not establish PS COM9, error: a bytes-like object is required, not 'str'
+2024-02-03 16:13:43,129 - DEBUG - set_ps_com(): hv_com: None, lv_com: None
+2024-02-03 16:13:43,129 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: None
+2024-02-03 16:14:14,798 - DEBUG - send_scpi(): com: COM6, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:14:15,930 - INFO - set_ps_com(): testing com: COM6 santized id: b''
+2024-02-03 16:14:15,931 - ERROR - could not establish PS COM6, error: a bytes-like object is required, not 'str'
+2024-02-03 16:14:15,999 - DEBUG - send_scpi(): com: COM16, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:14:17,054 - INFO - set_ps_com(): testing com: COM16 santized id: b''
+2024-02-03 16:14:17,055 - ERROR - could not establish PS COM16, error: a bytes-like object is required, not 'str'
+2024-02-03 16:14:17,092 - DEBUG - send_scpi(): com: COM11, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:14:18,213 - INFO - set_ps_com(): testing com: COM11 santized id: b''
+2024-02-03 16:14:18,213 - ERROR - could not establish PS COM11, error: a bytes-like object is required, not 'str'
+2024-02-03 16:14:18,245 - DEBUG - send_scpi(): com: COM9, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:14:18,415 - INFO - set_ps_com(): testing com: COM9 santized id: b'Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051\r\n'
+2024-02-03 16:14:18,416 - ERROR - could not establish PS COM9, error: a bytes-like object is required, not 'str'
+2024-02-03 16:14:18,416 - DEBUG - set_ps_com(): hv_com: None, lv_com: None
+2024-02-03 16:14:18,416 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: None
+2024-02-03 16:14:51,663 - DEBUG - send_scpi(): com: COM6, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:14:52,779 - INFO - set_ps_com(): testing com: COM6 santized id: b''
+2024-02-03 16:14:52,779 - ERROR - could not establish PS COM6, error: a bytes-like object is required, not 'str'
+2024-02-03 16:14:52,847 - DEBUG - send_scpi(): com: COM16, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:14:53,900 - INFO - set_ps_com(): testing com: COM16 santized id: b''
+2024-02-03 16:14:53,900 - ERROR - could not establish PS COM16, error: a bytes-like object is required, not 'str'
+2024-02-03 16:14:53,938 - DEBUG - send_scpi(): com: COM11, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:14:55,064 - INFO - set_ps_com(): testing com: COM11 santized id: b''
+2024-02-03 16:14:55,064 - ERROR - could not establish PS COM11, error: a bytes-like object is required, not 'str'
+2024-02-03 16:14:55,098 - DEBUG - send_scpi(): com: COM9, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:14:55,282 - INFO - set_ps_com(): testing com: COM9 santized id: b'Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051\r\n'
+2024-02-03 16:14:55,282 - ERROR - could not establish PS COM9, error: a bytes-like object is required, not 'str'
+2024-02-03 16:14:55,282 - DEBUG - set_ps_com(): hv_com: None, lv_com: None
+2024-02-03 16:14:55,282 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: None
+2024-02-03 16:15:05,762 - DEBUG - send_scpi(): com: COM6, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:15:06,889 - INFO - set_ps_com(): testing com: COM6 santized id: b''
+2024-02-03 16:15:06,890 - ERROR - could not establish PS COM6, error: a bytes-like object is required, not 'str'
+2024-02-03 16:15:06,958 - DEBUG - send_scpi(): com: COM16, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:15:08,014 - INFO - set_ps_com(): testing com: COM16 santized id: b''
+2024-02-03 16:15:08,015 - ERROR - could not establish PS COM16, error: a bytes-like object is required, not 'str'
+2024-02-03 16:15:08,045 - DEBUG - send_scpi(): com: COM11, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:15:09,179 - INFO - set_ps_com(): testing com: COM11 santized id: b''
+2024-02-03 16:15:09,179 - ERROR - could not establish PS COM11, error: a bytes-like object is required, not 'str'
+2024-02-03 16:15:09,214 - DEBUG - send_scpi(): com: COM9, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:15:09,395 - INFO - set_ps_com(): testing com: COM9 santized id: b'Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051\r\n'
+2024-02-03 16:15:09,396 - ERROR - could not establish PS COM9, error: a bytes-like object is required, not 'str'
+2024-02-03 16:15:09,397 - DEBUG - set_ps_com(): hv_com: None, lv_com: None
+2024-02-03 16:15:09,397 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: None
+2024-02-03 16:16:08,467 - DEBUG - send_scpi(): com: COM6, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:16:09,606 - INFO - set_ps_com(): testing com: COM6 santized id: b''
+2024-02-03 16:16:09,606 - ERROR - could not establish PS COM6, error: a bytes-like object is required, not 'str'
+2024-02-03 16:16:09,674 - DEBUG - send_scpi(): com: COM16, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:16:10,731 - INFO - set_ps_com(): testing com: COM16 santized id: b''
+2024-02-03 16:16:10,731 - ERROR - could not establish PS COM16, error: a bytes-like object is required, not 'str'
+2024-02-03 16:16:10,766 - DEBUG - send_scpi(): com: COM11, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:16:11,897 - INFO - set_ps_com(): testing com: COM11 santized id: b''
+2024-02-03 16:16:11,897 - ERROR - could not establish PS COM11, error: a bytes-like object is required, not 'str'
+2024-02-03 16:16:11,931 - DEBUG - send_scpi(): com: COM9, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:16:12,117 - INFO - set_ps_com(): testing com: COM9 santized id: b'Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051\r\n'
+2024-02-03 16:16:12,117 - ERROR - could not establish PS COM9, error: a bytes-like object is required, not 'str'
+2024-02-03 16:16:12,117 - DEBUG - set_ps_com(): hv_com: None, lv_com: None
+2024-02-03 16:16:12,119 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: None
+2024-02-03 16:16:39,551 - DEBUG - send_scpi(): com: COM6, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:16:40,684 - INFO - set_ps_com(): testing com: COM6 santized id: b''
+2024-02-03 16:16:40,684 - ERROR - could not establish PS COM6, error: a bytes-like object is required, not 'str'
+2024-02-03 16:16:40,752 - DEBUG - send_scpi(): com: COM16, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:16:41,809 - INFO - set_ps_com(): testing com: COM16 santized id: b''
+2024-02-03 16:16:41,809 - ERROR - could not establish PS COM16, error: a bytes-like object is required, not 'str'
+2024-02-03 16:16:41,845 - DEBUG - send_scpi(): com: COM11, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:16:42,955 - INFO - set_ps_com(): testing com: COM11 santized id: b''
+2024-02-03 16:16:42,955 - ERROR - could not establish PS COM11, error: a bytes-like object is required, not 'str'
+2024-02-03 16:16:42,985 - DEBUG - send_scpi(): com: COM9, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:16:43,188 - INFO - set_ps_com(): testing com: COM9 santized id: b'Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051\r\n'
+2024-02-03 16:16:43,188 - ERROR - could not establish PS COM9, error: a bytes-like object is required, not 'str'
+2024-02-03 16:16:43,188 - DEBUG - set_ps_com(): hv_com: None, lv_com: None
+2024-02-03 16:16:43,188 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: None
+2024-02-03 16:17:07,232 - DEBUG - send_scpi(): com: COM6, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:17:08,365 - INFO - set_ps_com(): testing com: COM6 santized id: b''
+2024-02-03 16:17:08,366 - ERROR - could not establish PS COM6, error: a bytes-like object is required, not 'str'
+2024-02-03 16:17:08,432 - DEBUG - send_scpi(): com: COM16, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:17:09,493 - INFO - set_ps_com(): testing com: COM16 santized id: b''
+2024-02-03 16:17:09,493 - ERROR - could not establish PS COM16, error: a bytes-like object is required, not 'str'
+2024-02-03 16:17:09,532 - DEBUG - send_scpi(): com: COM11, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:17:10,660 - INFO - set_ps_com(): testing com: COM11 santized id: b''
+2024-02-03 16:17:10,660 - ERROR - could not establish PS COM11, error: a bytes-like object is required, not 'str'
+2024-02-03 16:17:10,691 - DEBUG - send_scpi(): com: COM9, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:17:10,878 - INFO - set_ps_com(): testing com: COM9 santized id: b'Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051\r\n'
+2024-02-03 16:17:10,878 - ERROR - could not establish PS COM9, error: a bytes-like object is required, not 'str'
+2024-02-03 16:17:10,878 - DEBUG - set_ps_com(): hv_com: None, lv_com: None
+2024-02-03 16:17:10,879 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: None
+2024-02-03 16:22:40,364 - DEBUG - send_scpi(): com: COM6, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:22:41,503 - INFO - set_ps_com(): testing com: COM6 santized id: b''
+2024-02-03 16:22:41,503 - ERROR - could not establish PS COM6, error: a bytes-like object is required, not 'str'
+2024-02-03 16:22:41,570 - DEBUG - send_scpi(): com: COM16, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:22:42,626 - INFO - set_ps_com(): testing com: COM16 santized id: b''
+2024-02-03 16:22:42,628 - ERROR - could not establish PS COM16, error: a bytes-like object is required, not 'str'
+2024-02-03 16:22:42,665 - DEBUG - send_scpi(): com: COM11, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:22:43,795 - INFO - set_ps_com(): testing com: COM11 santized id: b''
+2024-02-03 16:22:43,800 - ERROR - could not establish PS COM11, error: a bytes-like object is required, not 'str'
+2024-02-03 16:22:43,831 - DEBUG - send_scpi(): com: COM9, scpi_cmd: *IDN?, hex_message: 2a49444e3f0a encoded_packet: b'*IDN?\n'
+2024-02-03 16:22:44,012 - INFO - set_ps_com(): testing com: COM9 santized id: b'Magna-Power Electronics,Inc.,XR 50-40,S/N:1162-3051\r\n'
+2024-02-03 16:22:44,012 - ERROR - could not establish PS COM9, error: a bytes-like object is required, not 'str'
+2024-02-03 16:22:44,012 - DEBUG - set_ps_com(): hv_com: None, lv_com: None
+2024-02-03 16:22:44,012 - ERROR - set_ps_com(): could not set com port hv_com: None, lv_com: None

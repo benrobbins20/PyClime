@@ -1,12 +1,12 @@
 import minimalmodbus
 
 # Set up the instrument
-instrument = minimalmodbus.Instrument('COM10', 1)  # COM5: the port name, 63: the slave address
+instrument = minimalmodbus.Instrument('COM16', 1)  # COM5: the port name, 63: the slave address
 instrument.serial.baudrate = 9600                  # Baud  F4 uses either 9600 or 19200
 instrument.serial.bytesize = 8                     # data bit size, refer to modbus manual chart, each pair of hex digits is 1 byte:8 bits 
 instrument.serial.stopbits = 1                     # 1 stop bit is default but we state it explicitly 
 instrument.serial.timeout  = 0.2                   # seconds.  increase if you are having problems
-print (instrument)                                 # prints out the settings for instrument
+print(instrument)                                  # prints out the settings for instrument
 
 
 

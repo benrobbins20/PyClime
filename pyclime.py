@@ -88,12 +88,15 @@ class PyClime:
         com_list = self.com_helper()
         for com in com_list:
             try:
-                conn = serial.Serial(com, 19200, timeout=1)
-                conn.write('*IDN?\n'.encode()) # return byte encoded ID b'Magna-Power Electronics, Inc., SQA375-54, S/N:106-1588\r\n'
-                id = (conn.readline())
-                id = id.decode('utf-8').strip('\r\n')
-                self.logger.info('set_ps_com(): testing com: %s santized id: %s', com,id)
                 
+                # conn = serial.Serial(com, 19200, timeout=1)
+                # conn.write('*IDN?\n'.encode()) # return byte encoded ID b'Magna-Power Electronics, Inc., SQA375-54, S/N:106-1588\r\n'
+                # id = (conn.readline())
+                # id = id.decode('utf-8').strip('\r\n')
+                # self.logger.info('set_ps_com(): testing com: %s santized id: %s', com,id)
+                
+                id = self.send_scpi(com, '*IDN?') # refactor to use send_scpi
+                self.logger.info('set_ps_com(): testing com: %s santized id: %s', com,id)
                 if big_ps_model in id:
                     self.hv_com = com
                     self.logger.info('set_ps_com(): hv_com: %s, test success model num: %s', self.hv_com,id)
@@ -122,8 +125,10 @@ class PyClime:
         
     def send_scpi(self, com, scpi_cmd):
         conn = serial.Serial(com, 19200, timeout=1)
-        message = scpi_cmd + '\n'
-        conn.write(message.encode())
+        packet = scpi_cmd + '\n'
+        hex_message = self.hexify_serial(packet)
+        self.logger.debug('send_scpi(): com: %s, scpi_cmd: %s, hex_message: %s encoded_packet: %s', com, scpi_cmd, hex_message,packet.encode())
+        conn.write(packet.encode())
         return conn.readline()
     
     def lv_on(self,enable=False):
@@ -132,14 +137,80 @@ class PyClime:
         else: # otherwise turn off the ps
             self.send_scpi(self.lv_com, 'OUTP:STOP')
 
-
-
-
-# test_instance = PyClime() # create an instance of the class
-
+    def hv_on(self,enable=False):
+        if enable: # if the enable flag is set, turn on the ps
+            self.send_scpi(self.hv_com, 'OUTP:START')   
+        else: # otherwise turn off the ps
+            self.send_scpi(self.hv_com, 'OUTP:STOP')
+            
+    def get_threshold(self, ps_com):
+        # get the voltage threshold and current threshold
+        volt_thresh = self.send_scpi(ps_com, 'VOLT:PROT:LEV?')
+        cur_thresh = self.send_scpi(ps_com, 'CURR:PROT:LEV?')
+        volt_thresh = self.santize_serial(volt_thresh)
+        cur_thresh = self.santize_serial(cur_thresh)
+        self.logger.debug('lv_threshold(): volt_thresh: %s volts, cur_thresh: %s amps', volt_thresh, cur_thresh)
+       
+    def set_threshold(self, ps_com, volt_thresh, cur_thresh): # set the voltage and current threshold default to 24V and 1A
+        # set the voltage threshold and current threshold
+        self.send_scpi(ps_com, f'VOLT:PROT:LEV {volt_thresh}')
+        self.send_scpi(ps_com, f'CURR:PROT:LEV {cur_thresh}')
+        self.logger.debug('set_threshold(): volt_thresh: %s volts, cur_thresh: %s amps', volt_thresh, cur_thresh)
         
-# test_instance.set_env_com() # test the com ports
-# test_instance.set_ps_com() # test the com ports
+    def set_voltage(self, ps_com, voltage): # set the voltage threshold and current threshold default to 24V and 1A
+        # set the voltage threshold and current threshold
+        self.send_scpi(ps_com, f'VOLT {voltage}')
+        self.logger.debug('set_voltage(): voltage: %s volts', voltage)
+        
+    def set_current(self, ps_com, current): # set the voltage threshold and current threshold default to 24V and 1A 
+        # set the voltage threshold and current threshold
+        self.send_scpi(ps_com, f'CURR {current}')
+        self.logger.debug('set_current(): current: %s amps', current)
+        
+    def santize_serial(self,resp):
+        return resp.decode('utf-8').strip('\r\n')
+    
+    def clear_ovt(self, ps_com): # clear the over voltage warning to re-enable the ps
+        self.send_scpi(ps_com, 'OUTP:PROT:CLE')
+        self.logger.debug('clear_ovt(): ps_com: %s', ps_com) 
+        
+    def hexify_serial(self,packet):
+        return packet.encode('utf-8').hex()
+    
+        
+
+test_instance = PyClime() # create an instance of the class    
+#test_instance.set_env_com() # test the com ports
+
+
+test_instance.set_ps_com() # test the com ports
+
+
+
+
 # test_instance.set_chamber_temp(220) # set the chamber temp to 100C
 
 # test_instance.send_scpi(test_instance.lv_com, 'OUTP:START') # this worked!!! AND I DIDNT HAVE IT HOOKED UP TO ANYTHING!!!! 360 VOLTS JUST APPLIED AND IM SETTING NEXT TO LEADS. HA. well ill take it 
+
+# test_instance.get_threshold(test_instance.lv_com) # get the threshold for the low voltage ps
+
+#est_instance.set_threshold(test_instance.lv_com, 30, 5) # set the threshold for the low voltage ps
+
+#test_instance.get_threshold(test_instance.lv_com) # get the threshold for the low voltage ps
+
+#test_instance.set_voltage(test_instance.lv_com, 12) # set the voltage for the low voltage ps
+
+#test_instance.set_current(test_instance.lv_com, 1) # set the current for the low voltage ps
+
+
+
+# test_instance.clear_ovt(test_instance.lv_com) # reset the low voltage ps
+
+# test_instance.lv_on(True) # turn on the low voltage ps
+
+
+
+
+
+
+
